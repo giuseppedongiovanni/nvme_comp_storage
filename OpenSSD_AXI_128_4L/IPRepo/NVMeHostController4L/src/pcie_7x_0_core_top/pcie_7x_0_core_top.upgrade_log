@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Sat May 23 13:25:05 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pcie_7x_0_core_top'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pcie_7x_0_core_top from xilinx.com:ip:pcie_7x:3.0 (Rev. 4) to xilinx.com:ip:pcie_7x:3.2 (Rev. 1)
+

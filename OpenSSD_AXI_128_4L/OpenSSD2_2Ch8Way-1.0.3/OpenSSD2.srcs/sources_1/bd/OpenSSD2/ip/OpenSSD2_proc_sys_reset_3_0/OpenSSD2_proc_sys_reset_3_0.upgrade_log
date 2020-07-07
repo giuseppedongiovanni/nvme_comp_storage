@@ -1,0 +1,37 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Oct 29 10:22:26 2019
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_proc_sys_reset_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of OpenSSD2_proc_sys_reset_3_0 (xilinx.com:ip:proc_sys_reset:5.0 (Rev. 8)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Thu Oct 24 13:05:25 2019
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-3
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_proc_sys_reset_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_proc_sys_reset_3_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 6) to (Rev. 8)
+

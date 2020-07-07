@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:54 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Sun May 24 15:51:53 2020
+# Process ID: 19732
+# Current directory: /home/giuseppezynq/OpenSSD_AXI_128/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/synth_2
+# Command line: vivado -log OpenSSD2.vds -mode batch -messageDb vivado.pb -notrace -source OpenSSD2.tcl
+# Log file: /home/giuseppezynq/OpenSSD_AXI_128/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/synth_2/OpenSSD2.vds
+# Journal file: /home/giuseppezynq/OpenSSD_AXI_128/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/synth_2/vivado.jou
+#-----------------------------------------------------------
+source OpenSSD2.tcl -notrace

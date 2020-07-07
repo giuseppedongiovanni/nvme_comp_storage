@@ -1,0 +1,48 @@
+13:57:26 **** Incremental Build of configuration Release for project test ****
+make all 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.d" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building target: test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/xaxidma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33560	   1216	  24308	  59084	   e6cc	test.elf
+Finished building: test.elf.size
+ 
+
+13:57:26 Build Finished (took 110ms)
+
+13:57:26 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+13:57:37 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.
+13:59:05 **** Auto Build of configuration Debug for project test ****
+make all 
+Building file: ../src/xaxidma_example_simple_poll.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xaxidma_example_simple_poll.o" -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/xaxidma_example_simple_poll.d" -MT"src/xaxidma_example_simple_poll.d" -o "src/xaxidma_example_simple_poll.o" "../src/xaxidma_example_simple_poll.c"
+Finished building: ../src/xaxidma_example_simple_poll.c
+ 
+Building target: test.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/xaxidma_example_simple_poll.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: test.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size test.elf  |tee "test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33888	   1216	  24308	  59412	   e814	test.elf
+Finished building: test.elf.size
+ 
+13:59:15 **** Incremental Build of configuration Debug for project test ****
+make all 
+make: Nothing to be done for `all'.

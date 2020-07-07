@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/giuseppezynq/OpenSSD_AXI/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="108650fs"></ZoomStartTime>
+      <ZoomEndTime time="164851fs"></ZoomEndTime>
+      <Cursor1Time time="128000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" type="logic" fp_name="axis_data_fifo_0/s_axis_tready">
+      <obj_property name="ElementShortName">axis_data_fifo_0/s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axis_data_fifo_0/s_axis_tvalid">
+      <obj_property name="ElementShortName">axis_data_fifo_0/s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axis_data_fifo_0/s_axis_tlast">
+      <obj_property name="ElementShortName">axis_data_fifo_0/s_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/s_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axis_data_fifo_0/s_axis_tdata">
+      <obj_property name="ElementShortName">axis_data_fifo_0/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/s_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axis_data_fifo_0/m_axis_tready">
+      <obj_property name="ElementShortName">axis_data_fifo_0/m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axis_data_fifo_0/m_axis_tvalid">
+      <obj_property name="ElementShortName">axis_data_fifo_0/m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axis_data_fifo_0/m_axis_tlast">
+      <obj_property name="ElementShortName">axis_data_fifo_0/m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axis_data_fifo_0/m_axis_tdata">
+      <obj_property name="ElementShortName">axis_data_fifo_0/m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_0/m_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

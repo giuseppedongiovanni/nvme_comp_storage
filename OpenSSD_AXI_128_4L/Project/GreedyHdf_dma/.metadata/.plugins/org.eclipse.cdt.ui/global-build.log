@@ -1,0 +1,27 @@
+16:37:18 **** Incremental Build of configuration Release for project GreedyFTL_3.0.0 ****
+make all 
+Building file: ../src/dma_operation.c
+Invoking: ARM gcc compiler
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dma_operation.o" -I../../GreedyFTL_3.0.0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_operation.d" -MT"src/dma_operation.d" -o "src/dma_operation.o" "../src/dma_operation.c"
+Finished building: ../src/dma_operation.c
+ 
+Building target: GreedyFTL_3.0.0.elf
+Invoking: ARM gcc linker
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../GreedyFTL_3.0.0_bsp/ps7_cortexa9_0/lib -o "GreedyFTL_3.0.0.elf"  ./src/nvme/host_lld.o ./src/nvme/nvme_admin_cmd.o ./src/nvme/nvme_identify.o ./src/nvme/nvme_io_cmd.o ./src/nvme/nvme_main.o  ./src/address_translation.o ./src/data_buffer.o ./src/dma_operation.o ./src/ftl_config.o ./src/garbage_collection.o ./src/main.o ./src/nsc_driver.o ./src/request_allocation.o ./src/request_schedule.o ./src/request_transform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: GreedyFTL_3.0.0.elf
+ 
+Invoking: ARM Print Size
+arm-xilinx-eabi-size GreedyFTL_3.0.0.elf  |tee "GreedyFTL_3.0.0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 112876	   3192	89203008	89319076	552e6a4	GreedyFTL_3.0.0.elf
+Finished building: GreedyFTL_3.0.0.elf.size
+ 
+
+16:37:18 Build Finished (took 115ms)
+
+16:37:18 **** Incremental Build of configuration Debug for project GreedyFTL_3.0.0 ****
+make all 
+make: Nothing to be done for `all'.
+16:37:27 **** Incremental Build of configuration Debug for project GreedyFTL_3.0.0 ****
+make all 
+make: Nothing to be done for `all'.

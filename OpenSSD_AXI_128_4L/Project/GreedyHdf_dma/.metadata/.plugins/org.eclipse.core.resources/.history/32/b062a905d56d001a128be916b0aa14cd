@@ -1,0 +1,14 @@
+/*
+ * dma_operation.h
+
+ *
+ *  Created on: Mar 24, 2020
+ *      Author: giuseppezynq
+ */
+
+#ifndef DMA_OPERATION_H_
+#define DMA_OPERATION_H_
+
+void V2FReadPageTransfer(V2FMCRegisters* dev, int way, void* pageDataBuffer, void* spareDataBuffer, unsigned int* errorInformation, unsigned int* completion, unsigned int rowAddress)
+
+#endif /* DMA_OPERATION_H_ */

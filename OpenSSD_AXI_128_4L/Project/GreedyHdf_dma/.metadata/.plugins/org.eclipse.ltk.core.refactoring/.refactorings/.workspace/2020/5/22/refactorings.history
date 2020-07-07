@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;GreedyFTL_3.0.0/src/dma&apos;" deleteContents="false" description="Delete resource &apos;GreedyFTL_3.0.0/src/dma&apos;" element1="/GreedyFTL_3.0.0/src/dma" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1590334754880"/>
+</session>

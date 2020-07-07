@@ -1,0 +1,18 @@
+12:03:55 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:03:58 INFO  : XSDB server has started successfully.
+12:04:41 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:04:43 INFO  : XSDB server has started successfully.
+12:05:04 INFO  : Project 'OpenSSD2_hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+12:10:12 INFO  : ps7_init is completed.
+12:10:12 INFO  : ps7_post_config is completed.
+12:10:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:10:21 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:39:26 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:39:27 INFO  : XSDB server has started successfully.
+13:53:35 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+13:53:39 INFO  : ps7_init is completed.
+13:53:39 INFO  : ps7_post_config is completed.
+13:53:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:57:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:59:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:55 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

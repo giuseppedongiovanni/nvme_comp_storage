@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/giuseppezynq/OpenSSD_AXI/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3871fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="13" />
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_ARADDR">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_ARBURST">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARBURST[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_ARCACHE">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARCACHE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_ARLEN">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARLEN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_ARPROT">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARPROT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARPROT[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axi_dma_0_M_AXI_MM2S_ARREADY">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_ARSIZE">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axi_dma_0_M_AXI_MM2S_ARVALID">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_ARVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_RDATA">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axi_dma_0_M_AXI_MM2S_RLAST">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_RLAST</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_RLAST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axi_dma_0_M_AXI_MM2S_RREADY">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_RREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_RREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axi_dma_0_M_AXI_MM2S_RRESP">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_RRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="axi_dma_0_M_AXI_MM2S_RVALID">
+      <obj_property name="ElementShortName">axi_dma_0_M_AXI_MM2S_RVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_dma_0_M_AXI_MM2S_RVALID</obj_property>
+   </wvobject>
+</wave_config>

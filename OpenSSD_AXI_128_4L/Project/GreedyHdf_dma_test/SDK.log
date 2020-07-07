@@ -1,0 +1,117 @@
+08:20:12 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:20:16 INFO  : XSDB server has started successfully.
+08:42:14 INFO  : Project 'OpenSSD2_hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+09:14:44 INFO  : ps7_init is completed.
+09:14:44 INFO  : ps7_post_config is completed.
+09:14:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:44:57 INFO  : ps7_init is completed.
+09:44:58 INFO  : ps7_post_config is completed.
+09:44:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:45:25 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:53:40 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:53:41 INFO  : XSDB server has started successfully.
+10:15:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:16:51 INFO  : ps7_init is completed.
+10:16:52 INFO  : ps7_post_config is completed.
+10:16:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:18:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:56:40 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:10:57 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:10:58 INFO  : XSDB server has started successfully.
+12:12:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:37:09 INFO  : ps7_init is completed.
+13:37:10 INFO  : ps7_post_config is completed.
+13:37:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:02:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:04:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:05:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:05:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:05:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:06:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:06:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:08:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:08:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:09:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:09:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:10:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:10:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:11:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:11:46 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:11:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:12:25 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:12:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:13:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:13:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:13:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:14:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:14:52 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:14:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:15:51 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:15:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:16:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:16:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:19:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:19:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:29:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:30:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:33:03 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:33:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:11:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:12:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:14:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:02 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:21:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:21:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:33:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:51 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:21:27 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:21:28 INFO  : XSDB server has started successfully.
+18:43:59 INFO  : ps7_init is completed.
+18:43:59 INFO  : ps7_post_config is completed.
+18:43:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:45:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1587573937000,  Project:1587537097000
+18:45:39 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+18:45:40 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+18:45:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+18:45:45 INFO  : 
+18:45:46 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+18:45:46 INFO  : Clearing existing target manager status.
+18:45:46 INFO  : Closing and re-opening the MSS file of ther project GreedyFTL-3.0.0_bsp
+18:45:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+18:45:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+18:46:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:46:34 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:34:01 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:34:02 INFO  : XSDB server has started successfully.
+13:07:49 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:07:50 INFO  : XSDB server has started successfully.
+13:40:36 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1587642034000,  Project:1587573937000
+13:40:36 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+13:40:38 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+13:40:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:40:43 INFO  : 
+13:40:43 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+13:40:43 INFO  : Clearing existing target manager status.
+13:40:46 INFO  : Closing and re-opening the MSS file of ther project GreedyFTL-3.0.0_bsp
+13:40:46 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:40:46 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:43:02 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:43:15 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:43:16 INFO  : XSDB server has started successfully.
+13:48:04 INFO  : ps7_init is completed.
+13:48:05 INFO  : ps7_post_config is completed.
+13:48:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:48:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:49:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:16:53 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
