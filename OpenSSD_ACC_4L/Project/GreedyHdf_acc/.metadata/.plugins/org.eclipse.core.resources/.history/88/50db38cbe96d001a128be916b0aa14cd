@@ -1,0 +1,18 @@
+/*
+ * dma_operation.h
+
+ *
+ *  Created on: Mar 24, 2020
+ *      Author: giuseppezynq
+ */
+
+#ifndef DMA_OPERATION_H_
+#define DMA_OPERATION_H_
+
+#include "xaxidma.h"
+
+void V2FReadPageTransfer(XAxiDma *DMAInstance, u8 *Data_TxBufferPtr, u8 *Data_RxBufferPtr, u8 *Spare_TxBufferPtr, u8 *Spare_RxBufferPtr,unsigned int* errorInformation, unsigned int* completion);
+void V2FReadPageTransferRaw(XAxiDma *DMAInstance, u8 *Data_TxBufferPtr, u8 *Data_RxBufferPtr, unsigned int* completion);
+void V2FProgramPage(XAxiDma *InstancePtr, u8 *Data_TxBufferPtr, u8 *Data_RxBufferPtr, u8 *Spare_TxBufferPtr, u8 *Spare_RxBufferPtr);
+
+#endif /* DMA_OPERATION_H_ */

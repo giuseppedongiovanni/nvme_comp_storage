@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.hw/hw_1/wave/hw_ila_data_4/hw_ila_data_4.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="562001fs"></ZoomEndTime>
+      <Cursor1Time time="129000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="9" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject db_ref_id="1" type="array" fp_name="Accelerator_0/inst/exec_state">
+      <obj_property name="ElementShortName">Accelerator_0/inst/exec_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/inst/exec_state[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="Accelerator_0/m00_axis_tready">
+      <obj_property name="ElementShortName">Accelerator_0/m00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/m00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="Accelerator_0/m00_axis_tvalid">
+      <obj_property name="ElementShortName">Accelerator_0/m00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/m00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="Accelerator_0/s00_axis_tready">
+      <obj_property name="ElementShortName">Accelerator_0/s00_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/s00_axis_tready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="Accelerator_0/s00_axis_tvalid">
+      <obj_property name="ElementShortName">Accelerator_0/s00_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/s00_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="Accelerator_0/m00_axis_tdata">
+      <obj_property name="ElementShortName">Accelerator_0/m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/m00_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="Accelerator_0/inst/datain_Sregister">
+      <obj_property name="ElementShortName">Accelerator_0/inst/datain_Sregister[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/inst/datain_Sregister[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="Accelerator_0/s00_axis_tdata">
+      <obj_property name="ElementShortName">Accelerator_0/s00_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Accelerator_0/s00_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="axis_data_fifo_1/m_axis_tdata">
+      <obj_property name="ElementShortName">axis_data_fifo_1/m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axis_data_fifo_1/m_axis_tdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

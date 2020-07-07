@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:54 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Thu Apr 16 22:57:58 2020
+# Process ID: 7996
+# Current directory: /home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2
+# Command line: vivado -log OpenSSD2.vdi -applog -messageDb vivado.pb -mode batch -source OpenSSD2.tcl -notrace
+# Log file: /home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/OpenSSD2.vdi
+# Journal file: /home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source OpenSSD2.tcl -notrace
+Command: open_checkpoint /home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/OpenSSD2.dcp
+INFO: [Netlist 29-17] Analyzing 518 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.2
+INFO: [Device 21-403] Loading part xc7z045ffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-7996-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_board.xdc]
+Finished Parsing XDC File [/home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-7996-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_board.xdc]
+Parsing XDC File [/home/giuseppezynq/OpenSSD_ACC/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-7996-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_early.xdc]

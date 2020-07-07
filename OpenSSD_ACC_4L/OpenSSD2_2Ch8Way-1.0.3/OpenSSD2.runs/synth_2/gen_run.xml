@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_2" LaunchPart="xc7z045ffg900-2" LaunchTime="1590416097">
+  <File Type="VDS-TIMING-PB" Name="OpenSSD2_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="OpenSSD2_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="OpenSSD2.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="OpenSSD2_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="OpenSSD2_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="OpenSSD2_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="OpenSSD2.vds"/>
+  <File Type="PA-TCL" Name="OpenSSD2.tcl"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_2/synth_2.psg"/>
+  <File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_2/sources.xml"/>
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_2/constrs_in.xml"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/OpenSSD2.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/ip/OpenSSD2_axi_interconnect_0_1/OpenSSD2_axi_interconnect_0_1.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/ip/OpenSSD2_axi_interconnect_0_2/OpenSSD2_axi_interconnect_0_2.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/ip/OpenSSD2_proc_sys_reset_2_0/OpenSSD2_proc_sys_reset_2_0.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/ip/OpenSSD2_proc_sys_reset_3_0/OpenSSD2_proc_sys_reset_3_0.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/ip/OpenSSD2_processing_system7_0_0/OpenSSD2_processing_system7_0_0.upgrade_log"/>
+    <File Path="$PSRCDIR/sources_1/bd/OpenSSD2/ip/OpenSSD2_Accelerator_1_0/OpenSSD2_Accelerator_1_0.upgrade_log"/>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OpenSSD2"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/implementation">
+    <File Path="$PSRCDIR/constrs_1/implementation/constr_nvme.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/implementation/pinmap_others.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ProcessingOrder" Val="LATE"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/implementation/pinmap_others.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2015"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

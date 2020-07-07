@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# 
+# Start of session at: Mon Apr 13 22:31:15 2020
+# Process ID: 24090
+# Current directory: /home/giuseppezynq/OpenSSD_ACC_nofifo/Project/GreedyHdf_acc/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/giuseppezynq/OpenSSD_ACC_nofifo/Project/GreedyHdf_acc/webtalk/webtalk.log
+# Journal file: /home/giuseppezynq/OpenSSD_ACC_nofifo/Project/GreedyHdf_acc/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

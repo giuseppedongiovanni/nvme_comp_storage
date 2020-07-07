@@ -1,0 +1,70 @@
+{
+   DisplayTieOff: "1",
+   guistr: "# # String gsaved with Nlview 6.5.5  2015-06-26 bk=1.3371 VDI=38 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port pcie_perst_n -pg 1 -y 910 -defaultsOSRD -right
+preplace port pcie_ref_clk_p -pg 1 -y 870 -defaultsOSRD -right
+preplace port DDR -pg 1 -y 330 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 350 -defaultsOSRD
+preplace port pcie_ref_clk_n -pg 1 -y 890 -defaultsOSRD -right
+preplace portBus pcie_tx_p -pg 1 -y 740 -defaultsOSRD
+preplace portBus pcie_rx_n -pg 1 -y 950 -defaultsOSRD -right
+preplace portBus pcie_rx_p -pg 1 -y 930 -defaultsOSRD -right
+preplace portBus pcie_tx_n -pg 1 -y 760 -defaultsOSRD
+preplace inst axis_data_fifo_1 -pg 1 -lvl 4 -y 640 -defaultsOSRD
+preplace inst Accelerator_1 -pg 1 -lvl 3 -y 620 -defaultsOSRD
+preplace inst PS -pg 1 -lvl 7 -y 400 -defaultsOSRD
+preplace inst GPIC1 -pg 1 -lvl 6 -y 110 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 5 -y 370 -defaultsOSRD
+preplace inst axi_mem_intercon_1 -pg 1 -lvl 6 -y 360 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 4 -y 390 -defaultsOSRD
+preplace inst proc_sys_reset_2 -pg 1 -lvl 1 -y 370 -defaultsOSRD
+preplace inst HPIC3 -pg 1 -lvl 6 -y 700 -defaultsOSRD
+preplace inst NVMeHostController4L_0 -pg 1 -lvl 7 -y 730 -defaultsOSRD
+preplace inst proc_sys_reset_3 -pg 1 -lvl 1 -y 840 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 2 -y 320 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 390 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 2 -y 600 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 7 1 NJ
+preplace netloc axi_mem_intercon_M01_AXI 1 2 3 NJ 320 NJ 320 N
+preplace netloc NVMeHostController4L_0_dev_irq_assert 1 6 2 2200 250 2720
+preplace netloc NVMeHostController4L_0_pcie_tx_p 1 7 1 NJ
+preplace netloc pcie_ref_clk_n_1 1 6 2 2160 890 NJ
+preplace netloc axi_mem_intercon_1_M00_AXI 1 6 1 N
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 NJ
+preplace netloc pcie_rx_n_1 1 6 2 2200 950 NJ
+preplace netloc Accelerator_1_M00_AXIS 1 3 1 N
+preplace netloc axi_mem_intercon_M00_AXI 1 2 1 770
+preplace netloc PS_FCLK_CLK2 1 0 8 20 280 400 140 780 140 NJ 140 NJ 140 1810 510 2190 260 2670
+preplace netloc ARESETN_2 1 1 5 NJ 860 NJ 860 NJ 720 NJ 680 1800
+preplace netloc PS_FCLK_RESET2_N 1 0 8 20 930 NJ 930 NJ 930 NJ 930 NJ 930 NJ 930 NJ 930 2710
+preplace netloc axi_mem_intercon_M02_AXI 1 2 1 750
+preplace netloc ARESETN_3 1 1 5 380 90 NJ 90 NJ 90 NJ 90 NJ
+preplace netloc PS_FCLK_CLK3 1 0 8 30 620 390 500 760 500 1050 440 1380 260 1770 520 2160 230 2710
+preplace netloc NVMeHostController4L_0_m0_axi 1 5 3 1830 570 NJ 570 2670
+preplace netloc axi_dma_0_M_AXI_MM2S 1 5 1 1760
+preplace netloc proc_sys_reset_2_peripheral_aresetn 1 1 6 410 480 760 250 NJ 250 NJ 250 1790 560 NJ
+preplace netloc pcie_ref_clk_p_1 1 6 2 2150 870 NJ
+preplace netloc GPIC1_M00_AXI 1 6 1 2180
+preplace netloc processing_system7_0_FIXED_IO 1 7 1 NJ
+preplace netloc PS_FCLK_RESET3_N 1 0 8 30 940 NJ 940 NJ 940 NJ 940 NJ 940 NJ 940 NJ 940 2700
+preplace netloc axi_dma_0_M_AXI_S2MM 1 5 1 1780
+preplace netloc S00_AXI_2 1 5 3 1830 550 NJ 550 2680
+preplace netloc pcie_perst_n_1 1 6 2 2180 910 NJ
+preplace netloc axis_data_fifo_1_M_AXIS 1 4 1 1390
+preplace netloc axis_data_fifo_0_M_AXIS 1 2 1 N
+preplace netloc axi_dma_0_M_AXIS_MM2S 1 1 5 420 160 NJ 160 NJ 160 NJ 160 1750
+preplace netloc M00_ARESETN_2 1 1 6 400 730 780 740 1040 480 1400 480 1820 580 2130
+preplace netloc pcie_rx_p_1 1 6 2 2190 920 NJ
+preplace netloc PS_M_AXI_GP0 1 1 7 430 490 NJ 490 NJ 490 NJ 490 NJ 530 NJ 540 2690
+preplace netloc HPIC3_M00_AXI 1 6 1 2150
+preplace netloc NVMeHostController4L_0_pcie_tx_n 1 7 1 NJ
+levelinfo -pg 1 0 210 590 910 1220 1580 1980 2450 2740 -top 0 -bot 970
+",
+}
+{
+   da_axi4_cnt: "33",
+   da_board_cnt: "3",
+   da_bram_cntlr_cnt: "2",
+   da_ps7_cnt: "1",
+}

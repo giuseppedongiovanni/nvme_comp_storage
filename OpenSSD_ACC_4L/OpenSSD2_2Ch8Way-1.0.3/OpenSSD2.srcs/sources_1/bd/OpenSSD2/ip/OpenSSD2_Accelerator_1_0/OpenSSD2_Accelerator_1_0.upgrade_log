@@ -1,0 +1,589 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Fri Apr 17 19:09:58 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Fri Apr 17 18:51:02 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Thu Apr 16 23:28:34 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Thu Apr 16 22:31:22 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Thu Apr 16 16:05:25 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Thu Apr 16 08:36:44 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 24) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Wed Apr 15 18:05:33 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Wed Apr 15 17:44:55 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+WARNING: An attempt to modify the value of disabled parameter 'C_S00_AXI_HIGHADDR' from '0x43C0FFFF' to '0x00000000' has been ignored for IP '/Accelerator_1'
+
+WARNING: An attempt to modify the value of disabled parameter 'C_S00_AXI_BASEADDR' from '0x43C00000' to '0xFFFFFFFF' has been ignored for IP '/Accelerator_1'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:Accelerator:2.0 -user_name OpenSSD2_Accelerator_1_0
+set_property -dict "\
+  CONFIG.C_M00_AXIS_START_COUNT 32 \
+  CONFIG.C_M00_AXIS_TDATA_WIDTH 32 \
+  CONFIG.C_S00_AXIS_TDATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_ADDR_WIDTH 32 \
+  CONFIG.C_S00_AXI_BASEADDR 0xFFFFFFFF \
+  CONFIG.C_S00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_HIGHADDR 0x00000000 \
+  CONFIG.Component_Name OpenSSD2_Accelerator_1_0 " [get_ips OpenSSD2_Accelerator_1_0]
+
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Apr 14 11:56:06 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Fri Apr 10 09:54:42 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 20) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Fri Apr 10 09:39:59 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 19) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Wed Apr  8 18:00:28 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 18) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Wed Apr  8 11:17:36 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 17) to (Rev. 18)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Apr  7 21:59:09 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 16) to (Rev. 17)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Apr  7 17:43:33 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 15) to (Rev. 16)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Apr  7 16:01:17 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Apr  7 13:10:29 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 13) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue Apr  7 11:12:21 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Mon Apr  6 19:05:48 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Mon Apr  6 16:35:36 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 10) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Mon Apr  6 15:15:47 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 9) to (Rev. 10)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Mon Apr  6 14:24:00 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Sun Apr  5 15:13:02 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Sat Apr  4 18:38:12 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 6) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Sat Apr  4 17:38:10 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_Accelerator_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of OpenSSD2_Accelerator_1_0 (user.org:user:Accelerator:2.0) from (Rev. 5) to (Rev. 6)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'OpenSSD2_Accelerator_1_0'. These changes may impact your design.
+
+
+-upgraded port 's00_axi_araddr' width 32 differs from original width 6
+-upgraded port 's00_axi_awaddr' width 32 differs from original width 6
+
+3. Customization warnings
+-------------------------
+
+WARNING: An attempt to modify the value of disabled parameter 'C_S00_AXI_ADDR_WIDTH' from '32' to '6' has been ignored for IP '/Accelerator_1'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:Accelerator:2.0 -user_name OpenSSD2_Accelerator_1_0
+set_property -dict "\
+  CONFIG.C_M00_AXIS_START_COUNT 32 \
+  CONFIG.C_M00_AXIS_TDATA_WIDTH 32 \
+  CONFIG.C_S00_AXIS_TDATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_ADDR_WIDTH 6 \
+  CONFIG.C_S00_AXI_BASEADDR 0xFFFFFFFF \
+  CONFIG.C_S00_AXI_DATA_WIDTH 32 \
+  CONFIG.C_S00_AXI_HIGHADDR 0x00000000 \
+  CONFIG.Component_Name OpenSSD2_Accelerator_1_0 " [get_ips OpenSSD2_Accelerator_1_0]
+
+
