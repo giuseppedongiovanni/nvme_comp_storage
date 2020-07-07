@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/GreedyFTL-3.0.0/src/minmaxavg.c" element2="/GreedyFTL-3.0.0/src/minmaxavg.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1582805680944"/>
+</session>

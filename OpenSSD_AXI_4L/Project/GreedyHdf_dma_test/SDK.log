@@ -1,0 +1,754 @@
+13:25:45 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:25:54 INFO  : XSDB server has started successfully.
+13:29:54 INFO  : Project 'OpenSSD2_hw_platform_0_acc' created. You can now create BSPs and application projects targeting this hardware platform.
+13:49:13 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:49:14 INFO  : XSDB server has started successfully.
+15:53:31 INFO  : ps7_init is completed.
+15:53:31 INFO  : ps7_post_config is completed.
+15:53:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:11:32 INFO  : ps7_init is completed.
+16:11:32 INFO  : ps7_post_config is completed.
+16:11:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:20:52 INFO  : ps7_init is completed.
+16:20:52 INFO  : ps7_post_config is completed.
+16:20:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:22:41 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:13:31 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:13:32 INFO  : XSDB server has started successfully.
+17:38:05 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:38:06 INFO  : XSDB server has started successfully.
+17:39:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584462994000,  Project:1584102257000
+17:39:19 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+17:39:23 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:39:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/cvcd"
+
+17:39:24 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-generator.0geXgu"
+
+17:39:24 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+17:39:24 ERROR : Error updating BSP project MSS files.
+17:39:25 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+17:39:25 INFO  : Clearing existing target manager status.
+17:39:27 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:39:27 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:41:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:41:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:41:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:41:27 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:41:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:41:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:41:27 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:41:27 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:42:40 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:43:48 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:43:50 INFO  : XSDB server has started successfully.
+17:44:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:44:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:44:07 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:44:07 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:44:07 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:44:07 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:44:07 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:44:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:44:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:44:16 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:44:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:44:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:44:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:44:17 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:44:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:44:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:44:20 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:44:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:44:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:44:20 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:44:20 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:45:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:53 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:54 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:54 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:54 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:54 ERROR : Failed to get_connected_periphs
+Reason: ERROR: [Common 17-55] 'get_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+
+17:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:56 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:56 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:56 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:45:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:45:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:45:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:45:57 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:46:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:04 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:46:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:46:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:46:04 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:05 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:46:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:46:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:46:05 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:46:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:13 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:46:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:46:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:46:13 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:13 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:46:13 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:421)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:275)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:960)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:995)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:970)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1166)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.internal.editors.MSSViewer$2.widgetSelected(MSSViewer.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /GreedyFTL_3.0.0_acc_bsp
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2164)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:215)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:169)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+17:46:28 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:46:28 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:28 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:46:28 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:46:28 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:46:28 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:46:28 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:46:28 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:421)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:275)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:960)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:995)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:970)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1166)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:850)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:743)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:662)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /GreedyFTL_3.0.0_acc_bsp
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2164)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:215)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:169)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+17:48:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:48:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:48:06 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:48:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:48:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:48:06 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:48:06 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:48:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:48:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:48:16 ERROR :  [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+17:48:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1594] Core Accelerator of version 1.0 not found in repositories
+
+17:48:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1403] /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss line 21 - No IP instance named Accelerator_0 present in hardware design
+
+17:48:16 ERROR : (XSDB Server)ERROR: [Hsi 55-1452] Error: running open_sw_design.
+
+17:48:17 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_acc/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+17:48:17 ERROR : Unexpected error occurred during generating bsp sources
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:421)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:507)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:275)
+	at org.eclipse.ui.internal.progress.ProgressManager$3.run(ProgressManager.java:960)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:995)
+	at org.eclipse.ui.internal.progress.ProgressManager.busyCursorWhile(ProgressManager.java:970)
+	at org.eclipse.ui.internal.progress.ProgressManager.run(ProgressManager.java:1166)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:124)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.execute(RegenBspSourcesHandler.java:78)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:290)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:243)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:224)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:167)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:499)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:508)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:850)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.handleWidgetSelection(HandledContributionItem.java:743)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.access$7(HandledContributionItem.java:727)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem$4.handleEvent(HandledContributionItem.java:662)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /GreedyFTL_3.0.0_acc_bsp
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:2164)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:215)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:169)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+17:52:32 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:52:33 INFO  : XSDB server has started successfully.
+17:56:37 INFO  : ps7_init is completed.
+17:56:37 INFO  : ps7_post_config is completed.
+17:56:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:04:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:18:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:20:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:23:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+22:56:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:13:08 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:13:09 INFO  : XSDB server has started successfully.
+10:36:27 INFO  : ps7_init is completed.
+10:36:27 INFO  : ps7_post_config is completed.
+10:36:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:07:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:39:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:58 INFO  : ps7_init is completed.
+11:42:59 INFO  : ps7_post_config is completed.
+11:42:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:23 INFO  : ps7_init is completed.
+14:17:23 INFO  : ps7_post_config is completed.
+14:17:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:23:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:26:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:27:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:27:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:28:58 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:29:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:35:04 INFO  : ps7_init is completed.
+14:35:04 INFO  : ps7_post_config is completed.
+14:35:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:07:19 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:09:33 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:09:34 INFO  : XSDB server has started successfully.
+15:20:22 INFO  : ps7_init is completed.
+15:20:23 INFO  : ps7_post_config is completed.
+15:20:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:22:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:22:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:23:35 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:22:51 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:22:52 INFO  : XSDB server has started successfully.
+10:22:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584694711000,  Project:1584462994000
+10:22:57 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:23:01 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+10:23:05 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:23:06 INFO  : 
+10:23:07 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+10:23:07 INFO  : Clearing existing target manager status.
+10:23:07 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+10:23:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:23:09 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+10:27:29 INFO  : ps7_init is completed.
+10:27:30 INFO  : ps7_post_config is completed.
+10:27:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:30:11 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:17:48 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:17:49 INFO  : XSDB server has started successfully.
+17:17:55 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584705437000,  Project:1584694711000
+17:17:55 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:18:01 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification location will not be monitored anymore.
+17:18:12 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1584705437000,  Project:1584694711000
+17:18:12 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+17:18:16 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:18:17 INFO  : 
+17:18:18 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+17:18:18 INFO  : Clearing existing target manager status.
+17:18:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:18:21 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:33:07 INFO  : ps7_init is completed.
+17:33:08 INFO  : ps7_post_config is completed.
+17:33:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:34:19 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+17:34:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:19:42 INFO  : ps7_init is completed.
+18:19:42 INFO  : ps7_post_config is completed.
+18:19:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:26:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+18:26:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:35:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:37:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+18:37:56 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:48:14 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:48:15 INFO  : XSDB server has started successfully.
+11:40:04 INFO  : ps7_init is completed.
+11:40:04 INFO  : ps7_post_config is completed.
+11:40:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:46:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+11:46:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:48:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:51:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:54:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:57:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:01:09 INFO  : ps7_init is completed.
+12:01:09 INFO  : ps7_post_config is completed.
+12:01:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:25:42 INFO  : ps7_init is completed.
+12:25:42 INFO  : ps7_post_config is completed.
+12:25:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:26:03 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:28:17 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:28:18 INFO  : XSDB server has started successfully.
+09:43:40 INFO  : ps7_init is completed.
+09:43:40 INFO  : ps7_post_config is completed.
+09:43:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:49:37 INFO  : ps7_init is completed.
+10:49:37 INFO  : ps7_post_config is completed.
+10:49:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:08 INFO  : ps7_init is completed.
+10:55:08 INFO  : ps7_post_config is completed.
+10:55:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:44:57 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585046694000,  Project:1584705437000
+11:44:57 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+11:44:59 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+11:45:03 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+11:45:05 INFO  : 
+11:45:06 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+11:45:06 INFO  : Clearing existing target manager status.
+11:45:06 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+11:45:06 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:11:23 INFO  : ps7_init is completed.
+14:11:23 INFO  : ps7_post_config is completed.
+14:11:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:12:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:15:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:35 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:17:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:34:30 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:59:13 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:59:14 INFO  : XSDB server has started successfully.
+12:59:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585073503000,  Project:1585046694000
+12:59:20 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:59:31 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+12:59:35 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:59:37 INFO  : 
+12:59:38 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+12:59:38 INFO  : Clearing existing target manager status.
+12:59:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:59:40 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+12:59:54 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:00:45 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:00:46 INFO  : XSDB server has started successfully.
+13:04:32 INFO  : ps7_init is completed.
+13:04:32 INFO  : ps7_post_config is completed.
+13:04:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:59 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:48:55 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:48:56 INFO  : XSDB server has started successfully.
+16:49:01 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585151279000,  Project:1585073503000
+16:49:01 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+16:50:29 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+16:50:32 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:50:34 INFO  : 
+16:50:34 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+16:50:34 INFO  : Clearing existing target manager status.
+16:50:35 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+16:50:36 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+16:59:31 INFO  : ps7_init is completed.
+16:59:31 INFO  : ps7_post_config is completed.
+16:59:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:59:42 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:41:33 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:41:34 INFO  : XSDB server has started successfully.
+17:41:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585154145000,  Project:1585151279000
+17:41:40 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:41:42 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+17:41:45 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:41:47 INFO  : 
+17:41:48 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+17:41:48 INFO  : Clearing existing target manager status.
+17:41:49 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:41:49 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+17:54:05 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-JTAG-SMT2-210251A1B8FF on TCP:127.0.0.1:3121
+
+
+17:54:05 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-JTAG-SMT2-210251A1B8FF on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+17:55:08 INFO  : ps7_init is completed.
+17:55:08 INFO  : ps7_post_config is completed.
+17:55:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:09:44 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585159780000,  Project:1585154145000
+19:09:44 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:09:46 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+19:09:50 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:09:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-generator.SgqOQM"
+
+19:09:51 ERROR : (XSDB Server)ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/cvcd"
+ERROR: [Hsi 55-1433] Error boost::filesystem::directory_iterator::construct: Permission denied: "/tmp/systemd-generator.19hGdS"
+
+19:09:51 ERROR : Failed to call sync_sw_with_hw_change
+Reason: ERROR: [Common 17-39] 'hsi::open_sw_design' failed due to earlier errors.
+
+19:09:51 ERROR : Error updating BSP project MSS files.
+19:09:52 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+19:09:52 INFO  : Clearing existing target manager status.
+19:09:52 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:09:52 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+19:12:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+19:12:21 ERROR :  [Common 17-39] 'hsi::current_sw_design' failed due to earlier errors.
+19:12:21 ERROR : (XSDB Server)ERROR: [Hsi 55-1558] Software Design system system is not found
+
+19:12:21 INFO  : Unable to read in MSS file /home/giuseppezynq/OpenSSD_AXI/Project/GreedyHdf_dma_test/GreedyFTL_3.0.0_acc_bsp/system.mss : null
+19:13:23 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:14:07 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:14:08 INFO  : XSDB server has started successfully.
+19:15:04 INFO  : ps7_init is completed.
+19:15:04 INFO  : ps7_post_config is completed.
+19:15:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:15:17 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:20:00 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+19:20:01 INFO  : XSDB server has started successfully.
+23:28:10 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+23:28:11 INFO  : XSDB server has started successfully.
+23:28:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585175227000,  Project:1585159780000
+23:28:16 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+23:28:17 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+23:28:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:28:29 INFO  : 
+23:28:30 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+23:28:30 INFO  : Clearing existing target manager status.
+23:28:30 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+23:28:31 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:28:31 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+23:29:08 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:29:17 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+23:29:18 INFO  : XSDB server has started successfully.
+23:36:13 INFO  : ps7_init is completed.
+23:36:13 INFO  : ps7_post_config is completed.
+23:36:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:36:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:37:45 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:40:53 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:40:54 INFO  : XSDB server has started successfully.
+08:40:59 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585207382000,  Project:1585175227000
+08:40:59 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+08:41:01 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+08:41:04 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+08:41:05 INFO  : 
+08:41:06 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+08:41:06 INFO  : Clearing existing target manager status.
+08:41:06 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+08:41:07 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+08:41:08 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+08:42:01 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:42:09 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:42:10 INFO  : XSDB server has started successfully.
+08:51:03 WARN  : Unable to obtain port 2350 for use by XMD, java.net.BindException: Address already in use
+08:51:07 INFO  : ps7_init is completed.
+08:51:07 INFO  : ps7_post_config is completed.
+08:51:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:10:34 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585210230000,  Project:1585207382000
+09:10:34 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+09:10:36 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+09:10:40 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:10:42 INFO  : 
+09:10:42 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+09:10:42 INFO  : Clearing existing target manager status.
+09:10:42 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:10:43 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+09:14:05 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:17:05 ERROR : Timed out. 180 seconds have elapsed while waiting for XSDB server to launch.
+09:17:05 ERROR : Failed to get_design_properties
+java.lang.Exception: java.lang.Error: Channel is waiting for Hello message
+	at org.eclipse.tcf.core.Command.<init>(Command.java:83)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$8.<init>(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueTcfCmd(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$4(XSDBCommandManager.java:381)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$7.run(XSDBCommandManager.java:376)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Error: Channel is waiting for Hello message
+	at org.eclipse.tcf.core.AbstractChannel.sendCommand(AbstractChannel.java:874)
+	at org.eclipse.tcf.core.Command.<init>(Command.java:79)
+	... 6 more
+09:18:21 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:18:22 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:18:50 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:18:51 INFO  : XSDB server has started successfully.
+09:19:06 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+09:19:27 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1585210764000,  Project:1585210230000
+09:19:27 INFO  : Project OpenSSD2_hw_platform_0_acc's source hardware specification located at /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+09:19:32 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI/OpenSSD2.hdf into /OpenSSD2_hw_platform_0_acc/system.hdf.
+09:19:35 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+09:19:37 INFO  : 
+09:19:37 INFO  : Updating hardware inferred compiler options for GreedyFTL_3.0.0_acc.
+09:19:37 INFO  : Clearing existing target manager status.
+09:19:38 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+09:19:39 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+09:19:54 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:20:17 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:20:18 INFO  : XSDB server has started successfully.
+09:26:13 INFO  : ps7_init is completed.
+09:26:13 INFO  : ps7_post_config is completed.
+09:26:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:26:28 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:10:32 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:10:33 INFO  : XSDB server has started successfully.
+14:11:54 INFO  : ps7_init is completed.
+14:11:54 INFO  : ps7_post_config is completed.
+14:11:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:33:28 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:56:49 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:56:50 INFO  : XSDB server has started successfully.
+16:03:12 INFO  : ps7_init is completed.
+16:03:12 INFO  : ps7_post_config is completed.
+16:03:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:58:49 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:13:12 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:13:13 INFO  : XSDB server has started successfully.
+11:23:51 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:23:52 INFO  : XSDB server has started successfully.
+11:25:10 INFO  : ps7_init is completed.
+11:25:10 INFO  : ps7_post_config is completed.
+11:25:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:32:33 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:30:09 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:30:10 INFO  : XSDB server has started successfully.
+14:39:23 INFO  : ps7_init is completed.
+14:39:24 INFO  : ps7_post_config is completed.
+14:39:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

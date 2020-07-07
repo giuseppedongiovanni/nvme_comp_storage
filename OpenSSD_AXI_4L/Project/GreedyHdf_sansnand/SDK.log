@@ -1,0 +1,1248 @@
+11:13:53 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:13:56 INFO  : XSDB server has started successfully.
+11:20:50 INFO  : Project 'OpenSSD2_hw_platform_0' created. You can now create BSPs and application projects targeting this hardware platform.
+12:35:11 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:35:12 INFO  : XSDB server has started successfully.
+13:04:32 INFO  : ps7_init is completed.
+13:04:32 INFO  : ps7_post_config is completed.
+13:04:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:07:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:27:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:32:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:02:20 INFO  : ps7_init is completed.
+14:02:20 INFO  : ps7_post_config is completed.
+14:02:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:24 INFO  : ps7_init is completed.
+14:39:24 INFO  : ps7_post_config is completed.
+14:39:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:01:47 INFO  : ps7_init is completed.
+16:01:47 INFO  : ps7_post_config is completed.
+16:01:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:10:38 INFO  : ps7_init is completed.
+16:10:39 INFO  : ps7_post_config is completed.
+16:10:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:31:38 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:58:54 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:58:55 INFO  : XSDB server has started successfully.
+15:00:16 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:00:17 INFO  : XSDB server has started successfully.
+15:04:08 INFO  : ps7_init is completed.
+15:04:08 INFO  : ps7_post_config is completed.
+15:04:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:20 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:21:21 INFO  : XSDB server has started successfully.
+15:21:33 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:21:34 INFO  : XSDB server has started successfully.
+15:26:49 INFO  : ps7_init is completed.
+15:26:49 INFO  : ps7_post_config is completed.
+15:26:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:55 INFO  : ps7_init is completed.
+15:30:55 INFO  : ps7_post_config is completed.
+15:30:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:44:35 INFO  : ps7_init is completed.
+15:44:35 INFO  : ps7_post_config is completed.
+15:44:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:51:43 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:27:20 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:27:22 INFO  : XSDB server has started successfully.
+08:36:04 INFO  : ps7_init is completed.
+08:36:04 INFO  : ps7_post_config is completed.
+08:36:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:39:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:40:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:44:49 INFO  : ps7_init is completed.
+08:44:49 INFO  : ps7_post_config is completed.
+08:44:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:45:32 INFO  : ps7_init is completed.
+09:45:32 INFO  : ps7_post_config is completed.
+09:45:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:59:04 INFO  : ps7_init is completed.
+09:59:04 INFO  : ps7_post_config is completed.
+09:59:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:04:19 INFO  : ps7_init is completed.
+15:04:19 INFO  : ps7_post_config is completed.
+15:04:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:11:15 INFO  : ps7_init is completed.
+15:11:15 INFO  : ps7_post_config is completed.
+15:11:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:15:28 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:27:05 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:27:06 INFO  : XSDB server has started successfully.
+10:40:45 INFO  : ps7_init is completed.
+10:40:45 INFO  : ps7_post_config is completed.
+10:40:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:54:02 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:30:18 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:30:19 INFO  : XSDB server has started successfully.
+14:50:23 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:50:24 INFO  : XSDB server has started successfully.
+14:55:30 INFO  : ps7_init is completed.
+14:55:30 INFO  : ps7_post_config is completed.
+14:55:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:17:20 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:47:42 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:47:43 INFO  : XSDB server has started successfully.
+16:50:18 INFO  : ps7_init is completed.
+16:50:18 INFO  : ps7_post_config is completed.
+16:50:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:05:45 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:53:34 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:53:38 INFO  : XSDB server has started successfully.
+08:56:58 INFO  : ps7_init is completed.
+08:56:58 INFO  : ps7_post_config is completed.
+08:56:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:08:19 INFO  : ps7_init is completed.
+09:08:19 INFO  : ps7_post_config is completed.
+09:08:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:15:40 INFO  : ps7_init is completed.
+09:15:40 INFO  : ps7_post_config is completed.
+09:15:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:41:18 INFO  : ps7_init is completed.
+09:41:18 INFO  : ps7_post_config is completed.
+09:41:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:53:23 INFO  : ps7_init is completed.
+09:53:23 INFO  : ps7_post_config is completed.
+09:53:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:56:59 INFO  : ps7_init is completed.
+09:57:00 INFO  : ps7_post_config is completed.
+09:57:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:00:47 INFO  : ps7_init is completed.
+10:00:47 INFO  : ps7_post_config is completed.
+10:00:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:04:12 INFO  : ps7_init is completed.
+10:04:12 INFO  : ps7_post_config is completed.
+10:04:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:47:59 INFO  : ps7_init is completed.
+10:47:59 INFO  : ps7_post_config is completed.
+10:47:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:34:45 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:34:46 INFO  : XSDB server has started successfully.
+12:35:10 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:35:11 INFO  : XSDB server has started successfully.
+12:56:53 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:56:54 INFO  : XSDB server has started successfully.
+13:44:47 INFO  : ps7_init is completed.
+13:44:47 INFO  : ps7_post_config is completed.
+13:44:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:06:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:59:05 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:59:06 INFO  : XSDB server has started successfully.
+15:00:40 INFO  : ps7_init is completed.
+15:00:40 INFO  : ps7_post_config is completed.
+15:00:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:42:14 INFO  : ps7_init is completed.
+15:42:15 INFO  : ps7_post_config is completed.
+15:42:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:49:46 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:37:55 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:37:56 INFO  : XSDB server has started successfully.
+08:38:46 INFO  : ps7_init is completed.
+08:38:46 INFO  : ps7_post_config is completed.
+08:38:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:07:39 INFO  : ps7_init is completed.
+09:07:39 INFO  : ps7_post_config is completed.
+09:07:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:29:15 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:25:15 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:25:16 INFO  : XSDB server has started successfully.
+10:25:57 INFO  : ps7_init is completed.
+10:25:57 INFO  : ps7_post_config is completed.
+10:25:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:36:32 INFO  : ps7_init is completed.
+10:36:33 INFO  : ps7_post_config is completed.
+10:36:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:01:49 INFO  : ps7_init is completed.
+11:01:49 INFO  : ps7_post_config is completed.
+11:01:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:27:27 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:47:27 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:47:28 INFO  : XSDB server has started successfully.
+17:03:52 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:03:53 INFO  : XSDB server has started successfully.
+17:04:17 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+17:04:18 INFO  : XSDB server has started successfully.
+17:05:35 INFO  : ps7_init is completed.
+17:05:35 INFO  : ps7_post_config is completed.
+17:05:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:26:59 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:11:07 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:11:08 INFO  : XSDB server has started successfully.
+10:03:06 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:03:07 INFO  : XSDB server has started successfully.
+14:04:59 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:05:01 INFO  : XSDB server has started successfully.
+15:35:31 INFO  : ps7_init is completed.
+15:35:31 INFO  : ps7_post_config is completed.
+15:35:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:40:35 INFO  : ps7_init is completed.
+15:40:35 INFO  : ps7_post_config is completed.
+15:40:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:20 INFO  : ps7_init is completed.
+16:02:20 INFO  : ps7_post_config is completed.
+16:02:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:21:46 INFO  : ps7_init is completed.
+16:21:46 INFO  : ps7_post_config is completed.
+16:21:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:24:13 INFO  : ps7_init is completed.
+16:24:13 INFO  : ps7_post_config is completed.
+16:24:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:26:48 INFO  : ps7_init is completed.
+16:26:48 INFO  : ps7_post_config is completed.
+16:26:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:52:06 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:52:07 INFO  : XSDB server has started successfully.
+08:53:08 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:53:09 INFO  : XSDB server has started successfully.
+11:18:22 INFO  : ps7_init is completed.
+11:18:22 INFO  : ps7_post_config is completed.
+11:18:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:27:09 INFO  : ps7_init is completed.
+11:27:09 INFO  : ps7_post_config is completed.
+11:27:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:36:27 INFO  : ps7_init is completed.
+11:36:27 INFO  : ps7_post_config is completed.
+11:36:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:41 INFO  : ps7_init is completed.
+11:42:41 INFO  : ps7_post_config is completed.
+11:42:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:53:02 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:53:03 INFO  : XSDB server has started successfully.
+11:54:12 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:54:13 INFO  : XSDB server has started successfully.
+12:48:05 INFO  : ps7_init is completed.
+12:48:05 INFO  : ps7_post_config is completed.
+12:48:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:48:08 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Target request failed: Warning:\nCould not insert hardware watchpoint 2.\nCould not insert hardware watchpoint 4.\nCould not insert hardware watchpoint 6.\nCould not insert hardware breakpoints:\nYou may have requested too many hardware breakpoints/watchpoints.\n.
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.debugApplication(XilinxAppLaunchConfigurationDelegate.java:806)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:311)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+13:01:01 INFO  : ps7_init is completed.
+13:01:01 INFO  : ps7_post_config is completed.
+13:01:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:14:33 INFO  : ps7_init is completed.
+13:14:33 INFO  : ps7_post_config is completed.
+13:14:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:36:43 INFO  : ps7_init is completed.
+13:36:43 INFO  : ps7_post_config is completed.
+13:36:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:57 INFO  : ps7_init is completed.
+13:43:57 INFO  : ps7_post_config is completed.
+13:43:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:55:32 INFO  : ps7_init is completed.
+13:55:32 INFO  : ps7_post_config is completed.
+13:55:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:12:11 INFO  : ps7_init is completed.
+14:12:12 INFO  : ps7_post_config is completed.
+14:12:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:27:51 INFO  : ps7_init is completed.
+14:27:51 INFO  : ps7_post_config is completed.
+14:27:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:40:15 INFO  : ps7_init is completed.
+14:40:15 INFO  : ps7_post_config is completed.
+14:40:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:46:28 INFO  : ps7_init is completed.
+14:46:28 INFO  : ps7_post_config is completed.
+14:46:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:06:07 INFO  : ps7_init is completed.
+15:06:07 INFO  : ps7_post_config is completed.
+15:06:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:47 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+15:10:47 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+15:14:39 INFO  : ps7_init is completed.
+15:14:39 INFO  : ps7_post_config is completed.
+15:14:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:33 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-JTAG-SMT2-210251A1B8FF on TCP:127.0.0.1:3121
+
+
+15:36:33 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-JTAG-SMT2-210251A1B8FF on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+15:38:00 INFO  : ps7_init is completed.
+15:38:00 INFO  : ps7_post_config is completed.
+15:38:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:14:59 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:15:00 INFO  : XSDB server has started successfully.
+09:15:31 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:15:33 INFO  : XSDB server has started successfully.
+09:28:49 INFO  : ps7_init is completed.
+09:28:50 INFO  : ps7_post_config is completed.
+09:28:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:42:11 INFO  : ps7_init is completed.
+09:42:11 INFO  : ps7_post_config is completed.
+09:42:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:47:11 INFO  : ps7_init is completed.
+09:47:12 INFO  : ps7_post_config is completed.
+09:47:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:56:34 INFO  : ps7_init is completed.
+09:56:34 INFO  : ps7_post_config is completed.
+09:56:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:00:02 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+10:00:02 WARN  : Terminating existing sessions on processor ps7_cortexa9_0
+10:07:26 INFO  : ps7_init is completed.
+10:07:26 INFO  : ps7_post_config is completed.
+10:07:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:35:40 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:35:41 INFO  : XSDB server has started successfully.
+11:17:10 INFO  : ps7_init is completed.
+11:17:10 INFO  : ps7_post_config is completed.
+11:17:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:27:57 INFO  : ps7_init is completed.
+11:27:57 INFO  : ps7_post_config is completed.
+11:27:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:32:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:36:34 INFO  : ps7_init is completed.
+11:36:34 INFO  : ps7_post_config is completed.
+11:36:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:41:44 INFO  : ps7_init is completed.
+11:41:44 INFO  : ps7_post_config is completed.
+11:41:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:49:31 INFO  : ps7_init is completed.
+11:49:31 INFO  : ps7_post_config is completed.
+11:49:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:55:21 INFO  : ps7_init is completed.
+11:55:21 INFO  : ps7_post_config is completed.
+11:55:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:58:00 INFO  : ps7_init is completed.
+12:58:00 INFO  : ps7_post_config is completed.
+12:58:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:02:30 INFO  : ps7_init is completed.
+13:02:30 INFO  : ps7_post_config is completed.
+13:02:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:07:31 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:07:32 INFO  : XSDB server has started successfully.
+13:07:46 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:07:47 INFO  : XSDB server has started successfully.
+13:19:54 INFO  : ps7_init is completed.
+13:19:54 INFO  : ps7_post_config is completed.
+13:19:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:07 INFO  : ps7_init is completed.
+13:34:07 INFO  : ps7_post_config is completed.
+13:34:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:39:41 INFO  : ps7_init is completed.
+13:39:41 INFO  : ps7_post_config is completed.
+13:39:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:42:28 INFO  : ps7_init is completed.
+13:42:29 INFO  : ps7_post_config is completed.
+13:42:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:00:36 INFO  : ps7_init is completed.
+14:00:36 INFO  : ps7_post_config is completed.
+14:00:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:07:31 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:51:18 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:51:22 INFO  : XSDB server has started successfully.
+09:01:01 INFO  : ps7_init is completed.
+09:01:01 INFO  : ps7_post_config is completed.
+09:01:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:23:09 INFO  : ps7_init is completed.
+09:23:09 INFO  : ps7_post_config is completed.
+09:23:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:25:27 INFO  : ps7_init is completed.
+09:25:28 INFO  : ps7_post_config is completed.
+09:25:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:30:35 INFO  : ps7_init is completed.
+09:30:36 INFO  : ps7_post_config is completed.
+09:30:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:36:10 INFO  : ps7_init is completed.
+10:36:11 INFO  : ps7_post_config is completed.
+10:36:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:43:23 INFO  : ps7_init is completed.
+10:43:23 INFO  : ps7_post_config is completed.
+10:43:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:32 INFO  : ps7_init is completed.
+10:55:32 INFO  : ps7_post_config is completed.
+10:55:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:08:03 INFO  : ps7_init is completed.
+11:08:03 INFO  : ps7_post_config is completed.
+11:08:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:43:21 INFO  : ps7_init is completed.
+12:43:21 INFO  : ps7_post_config is completed.
+12:43:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:19:46 INFO  : ps7_init is completed.
+13:19:46 INFO  : ps7_post_config is completed.
+13:19:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:03 INFO  : ps7_init is completed.
+13:45:03 INFO  : ps7_post_config is completed.
+13:45:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:27 INFO  : ps7_init is completed.
+14:17:27 INFO  : ps7_post_config is completed.
+14:17:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:18:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:28:35 INFO  : ps7_init is completed.
+14:28:35 INFO  : ps7_post_config is completed.
+14:28:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:30:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:31:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:31:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:31:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:33:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:37:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:38:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:41:56 INFO  : ps7_init is completed.
+14:41:56 INFO  : ps7_post_config is completed.
+14:41:57 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:43:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:46:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:48:07 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+14:48:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:48:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:20 INFO  : ps7_init is completed.
+14:51:21 INFO  : ps7_post_config is completed.
+14:51:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:58:05 INFO  : ps7_init is completed.
+14:58:05 INFO  : ps7_post_config is completed.
+14:58:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:02:15 INFO  : ps7_init is completed.
+15:02:15 INFO  : ps7_post_config is completed.
+15:02:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:31:22 INFO  : ps7_init is completed.
+16:31:23 INFO  : ps7_post_config is completed.
+16:31:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:56:28 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:49:40 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:49:41 INFO  : XSDB server has started successfully.
+10:20:22 INFO  : ps7_init is completed.
+10:20:22 INFO  : ps7_post_config is completed.
+10:20:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:36:09 INFO  : ps7_init is completed.
+10:36:09 INFO  : ps7_post_config is completed.
+10:36:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:13 INFO  : ps7_init is completed.
+11:13:13 INFO  : ps7_post_config is completed.
+11:13:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:18:38 INFO  : ps7_init is completed.
+11:18:39 INFO  : ps7_post_config is completed.
+11:18:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:48:59 INFO  : ps7_init is completed.
+12:48:59 INFO  : ps7_post_config is completed.
+12:48:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:08:52 INFO  : ps7_init is completed.
+13:08:52 INFO  : ps7_post_config is completed.
+13:08:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:11:46 INFO  : ps7_init is completed.
+13:11:46 INFO  : ps7_post_config is completed.
+13:11:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:53:08 INFO  : ps7_init is completed.
+14:53:08 INFO  : ps7_post_config is completed.
+14:53:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:54 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:41:30 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:41:32 INFO  : XSDB server has started successfully.
+10:45:11 INFO  : ps7_init is completed.
+10:45:11 INFO  : ps7_post_config is completed.
+10:45:11 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:47:40 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:51:10 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:51:11 INFO  : XSDB server has started successfully.
+11:07:58 INFO  : ps7_init is completed.
+11:07:58 INFO  : ps7_post_config is completed.
+11:07:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:15:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:16:08 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:16:09 INFO  : XSDB server has started successfully.
+14:47:08 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:47:09 INFO  : XSDB server has started successfully.
+15:06:35 INFO  : ps7_init is completed.
+15:06:35 INFO  : ps7_post_config is completed.
+15:06:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:19:48 INFO  : ps7_init is completed.
+15:19:48 INFO  : ps7_post_config is completed.
+15:19:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:22:53 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+15:22:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:54:04 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:54:06 INFO  : XSDB server has started successfully.
+08:54:19 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:54:20 INFO  : XSDB server has started successfully.
+09:38:38 INFO  : ps7_init is completed.
+09:38:38 INFO  : ps7_post_config is completed.
+09:38:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:44:02 INFO  : ps7_init is completed.
+09:44:02 INFO  : ps7_post_config is completed.
+09:44:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:09:16 INFO  : ps7_init is completed.
+10:09:16 INFO  : ps7_post_config is completed.
+10:09:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:24:55 INFO  : ps7_init is completed.
+10:24:55 INFO  : ps7_post_config is completed.
+10:24:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:09 INFO  : ps7_init is completed.
+10:55:09 INFO  : ps7_post_config is completed.
+10:55:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:13:19 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:20:47 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:20:48 INFO  : XSDB server has started successfully.
+12:42:41 INFO  : ps7_init is completed.
+12:42:41 INFO  : ps7_post_config is completed.
+12:42:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:01:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF" && level==0} -index 1' command is executed.
+13:04:43 INFO  : 'fpga -state' command is executed.
+13:04:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:04:43 INFO  : Sourcing of '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/ps7_init.tcl' is done.
+13:04:43 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:04:44 INFO  : Hardware design information is loaded from '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/system.hdf'.
+13:04:44 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:04:44 INFO  : 'stop' command is executed.
+13:04:45 INFO  : 'ps7_init' command is executed.
+13:04:45 INFO  : 'ps7_post_config' command is executed.
+13:04:45 INFO  : 'con' command is executed.
+13:04:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:04:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:04:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:04:46 INFO  : The application '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:04:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+loadhw /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+dow /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf
+----------------End of Script----------------
+
+13:04:46 INFO  : Memory regions updated for context APU
+13:04:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:04:46 INFO  : 'con' command is executed.
+13:04:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+con
+----------------End of Script----------------
+
+13:18:03 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:21:03 ERROR : Timed out. 180 seconds have elapsed while waiting for XSDB server to launch.
+13:21:03 WARN  : Unexpected exception occurred.
+java.lang.Exception: java.lang.Error: Channel is waiting for Hello message
+	at org.eclipse.tcf.core.Command.<init>(Command.java:83)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$8.<init>(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.issueTcfCmd(XSDBCommandManager.java:384)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager.access$4(XSDBCommandManager.java:381)
+	at com.xilinx.sdk.xsdb.XSDBCommandManager$7.run(XSDBCommandManager.java:376)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:95)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.Error: Channel is waiting for Hello message
+	at org.eclipse.tcf.core.AbstractChannel.sendCommand(AbstractChannel.java:874)
+	at org.eclipse.tcf.core.Command.<init>(Command.java:79)
+	... 6 more
+13:21:03 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:27:24 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:27:25 INFO  : XSDB server has started successfully.
+13:35:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF" && level==0} -index 1' command is executed.
+13:35:50 INFO  : 'fpga -state' command is executed.
+13:35:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:35:50 INFO  : Sourcing of '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/ps7_init.tcl' is done.
+13:35:51 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:35:51 INFO  : Hardware design information is loaded from '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/system.hdf'.
+13:35:51 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:35:51 INFO  : 'stop' command is executed.
+13:35:52 INFO  : 'ps7_init' command is executed.
+13:35:52 INFO  : 'ps7_post_config' command is executed.
+13:35:52 INFO  : 'con' command is executed.
+13:35:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:35:53 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:35:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:35:54 INFO  : The application '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:35:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+loadhw /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+dow /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf
+----------------End of Script----------------
+
+13:35:54 INFO  : Memory regions updated for context APU
+13:35:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:35:54 INFO  : 'con' command is executed.
+13:35:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+con
+----------------End of Script----------------
+
+13:37:05 INFO  : Disconnected from the channel tcfchan#1.
+13:37:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF" && level==0} -index 1' command is executed.
+13:37:06 INFO  : 'fpga -state' command is executed.
+13:37:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:37:06 INFO  : Sourcing of '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/ps7_init.tcl' is done.
+13:37:06 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:37:06 INFO  : Hardware design information is loaded from '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/system.hdf'.
+13:37:07 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:37:07 INFO  : 'stop' command is executed.
+13:37:07 INFO  : 'ps7_init' command is executed.
+13:37:08 INFO  : 'ps7_post_config' command is executed.
+13:37:08 INFO  : 'con' command is executed.
+13:37:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:08 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:37:08 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:09 INFO  : The application '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:37:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+loadhw /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/OpenSSD2_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+dow /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_addr/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf
+----------------End of Script----------------
+
+13:37:09 INFO  : Memory regions updated for context APU
+13:37:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:37:09 INFO  : 'con' command is executed.
+13:37:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+con
+----------------End of Script----------------
+
+13:54:02 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:54:03 INFO  : XSDB server has started successfully.
+13:58:14 INFO  : ps7_init is completed.
+13:58:15 INFO  : ps7_post_config is completed.
+13:58:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:08:58 INFO  : ps7_init is completed.
+15:08:58 INFO  : ps7_post_config is completed.
+15:08:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:27 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:54:23 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:54:25 INFO  : XSDB server has started successfully.
+09:00:14 INFO  : ps7_init is completed.
+09:00:14 INFO  : ps7_post_config is completed.
+09:00:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:18:16 INFO  : ps7_init is completed.
+09:18:16 INFO  : ps7_post_config is completed.
+09:18:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:43:35 INFO  : ps7_init is completed.
+09:43:35 INFO  : ps7_post_config is completed.
+09:43:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:56:58 INFO  : ps7_init is completed.
+09:56:58 INFO  : ps7_post_config is completed.
+09:56:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:01:22 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:01:23 INFO  : XSDB server has started successfully.
+10:01:44 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:01:45 INFO  : XSDB server has started successfully.
+10:05:02 INFO  : ps7_init is completed.
+10:05:02 INFO  : ps7_post_config is completed.
+10:05:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:15:40 INFO  : ps7_init is completed.
+10:15:40 INFO  : ps7_post_config is completed.
+10:15:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:29:33 INFO  : ps7_init is completed.
+10:29:33 INFO  : ps7_post_config is completed.
+10:29:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:30:48 INFO  : ps7_init is completed.
+10:30:48 INFO  : ps7_post_config is completed.
+10:30:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:32:26 INFO  : ps7_init is completed.
+10:32:26 INFO  : ps7_post_config is completed.
+10:32:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:43:49 INFO  : ps7_init is completed.
+10:43:49 INFO  : ps7_post_config is completed.
+10:43:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:51:17 INFO  : ps7_init is completed.
+10:51:17 INFO  : ps7_post_config is completed.
+10:51:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:02:44 INFO  : ps7_init is completed.
+11:02:44 INFO  : ps7_post_config is completed.
+11:02:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:18:17 INFO  : ps7_init is completed.
+11:18:17 INFO  : ps7_post_config is completed.
+11:18:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:28:24 INFO  : ps7_init is completed.
+11:28:24 INFO  : ps7_post_config is completed.
+11:28:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:46:51 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:26:23 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:26:27 INFO  : XSDB server has started successfully.
+13:36:54 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:36:55 INFO  : XSDB server has started successfully.
+13:40:13 INFO  : ps7_init is completed.
+13:40:13 INFO  : ps7_post_config is completed.
+13:40:13 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:39 INFO  : ps7_init is completed.
+13:45:40 INFO  : ps7_post_config is completed.
+13:45:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:53:08 INFO  : ps7_init is completed.
+13:53:08 INFO  : ps7_post_config is completed.
+13:53:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:26:06 INFO  : ps7_init is completed.
+14:26:06 INFO  : ps7_post_config is completed.
+14:26:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:48:41 INFO  : ps7_init is completed.
+14:48:41 INFO  : ps7_post_config is completed.
+14:48:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:02:58 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:01:44 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:01:45 INFO  : XSDB server has started successfully.
+11:06:37 INFO  : ps7_init is completed.
+11:06:37 INFO  : ps7_post_config is completed.
+11:06:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:42:31 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+12:30:42 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+12:30:44 INFO  : XSDB server has started successfully.
+12:33:33 INFO  : ps7_init is completed.
+12:33:33 INFO  : ps7_post_config is completed.
+12:33:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:02:06 INFO  : ps7_init is completed.
+13:02:06 INFO  : ps7_post_config is completed.
+13:02:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:17:14 INFO  : ps7_init is completed.
+13:17:14 INFO  : ps7_post_config is completed.
+13:17:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:43:09 INFO  : ps7_init is completed.
+13:43:09 INFO  : ps7_post_config is completed.
+13:43:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:56:43 INFO  : ps7_init is completed.
+13:56:43 INFO  : ps7_post_config is completed.
+13:56:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:08:49 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:01:16 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:01:20 INFO  : XSDB server has started successfully.
+11:06:42 INFO  : ps7_init is completed.
+11:06:42 INFO  : ps7_post_config is completed.
+11:06:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:04:57 INFO  : ps7_init is completed.
+13:04:57 INFO  : ps7_post_config is completed.
+13:04:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:33:00 INFO  : ps7_init is completed.
+13:33:00 INFO  : ps7_post_config is completed.
+13:33:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:35:46 INFO  : ps7_init is completed.
+14:35:46 INFO  : ps7_post_config is completed.
+14:35:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:32:27 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:31:18 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:31:20 INFO  : XSDB server has started successfully.
+09:39:08 INFO  : ps7_init is completed.
+09:39:08 INFO  : ps7_post_config is completed.
+09:39:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:55:34 INFO  : ps7_init is completed.
+10:55:34 INFO  : ps7_post_config is completed.
+10:55:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:59:50 INFO  : ps7_init is completed.
+10:59:50 INFO  : ps7_post_config is completed.
+10:59:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:10:55 INFO  : ps7_init is completed.
+11:10:55 INFO  : ps7_post_config is completed.
+11:10:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:15:44 INFO  : ps7_init is completed.
+11:15:44 INFO  : ps7_post_config is completed.
+11:15:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:22 INFO  : ps7_init is completed.
+13:00:22 INFO  : ps7_post_config is completed.
+13:00:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:02:29 INFO  : ps7_init is completed.
+14:02:29 INFO  : ps7_post_config is completed.
+14:02:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:16:25 INFO  : ps7_init is completed.
+14:16:25 INFO  : ps7_post_config is completed.
+14:16:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:20:42 INFO  : ps7_init is completed.
+14:20:42 INFO  : ps7_post_config is completed.
+14:20:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:40:10 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+11:08:00 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:08:05 INFO  : XSDB server has started successfully.
+11:10:53 INFO  : ps7_init is completed.
+11:10:53 INFO  : ps7_post_config is completed.
+11:10:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:31:19 INFO  : ps7_init is completed.
+12:31:19 INFO  : ps7_post_config is completed.
+12:31:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:42:00 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:51:43 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:51:44 INFO  : XSDB server has started successfully.
+14:56:47 INFO  : ps7_init is completed.
+14:56:47 INFO  : ps7_post_config is completed.
+14:56:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:46:17 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:01:53 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:01:54 INFO  : XSDB server has started successfully.
+09:20:10 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:20:11 INFO  : XSDB server has started successfully.
+09:25:30 INFO  : ps7_init is completed.
+09:25:31 INFO  : ps7_post_config is completed.
+09:25:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:47:13 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:59:21 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:59:22 INFO  : XSDB server has started successfully.
+10:59:41 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+10:59:41 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Unknown Error Occured
+    Cable is not powered-on
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+11:00:54 INFO  : ps7_init is completed.
+11:00:54 INFO  : ps7_post_config is completed.
+11:00:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:22:12 INFO  : ps7_init is completed.
+11:22:12 INFO  : ps7_post_config is completed.
+11:22:12 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:57:39 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1582120657000,  Project:1579169626000
+14:57:39 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification located at /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+14:57:42 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+14:57:46 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+14:57:47 INFO  : 
+14:57:48 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+14:57:48 INFO  : Clearing existing target manager status.
+14:57:48 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+14:57:49 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+14:58:32 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:59:32 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:59:33 INFO  : XSDB server has started successfully.
+15:03:52 INFO  : ps7_init is completed.
+15:03:52 INFO  : ps7_post_config is completed.
+15:03:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:20 INFO  : ps7_init is completed.
+15:05:20 INFO  : ps7_post_config is completed.
+15:05:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:36:08 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:51:04 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:51:05 INFO  : XSDB server has started successfully.
+15:51:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1573719376000,  Project:1582120657000
+15:51:15 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification located at /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:51:17 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+15:51:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:51:22 INFO  : 
+15:51:23 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+15:51:23 INFO  : Clearing existing target manager status.
+15:51:24 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:51:24 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+15:57:39 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+16:14:37 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+16:14:38 INFO  : XSDB server has started successfully.
+16:15:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:16:01 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:47:39 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:47:42 INFO  : XSDB server has started successfully.
+13:47:48 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1582125458000,  Project:1573719376000
+13:47:48 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification located at /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+13:48:18 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+13:48:22 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:48:24 INFO  : 
+13:48:25 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+13:48:25 INFO  : Clearing existing target manager status.
+13:48:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:48:29 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+13:48:48 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:48:59 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:49:00 INFO  : XSDB server has started successfully.
+13:50:28 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+13:51:40 INFO  : ps7_init is completed.
+13:51:40 INFO  : ps7_post_config is completed.
+13:51:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:09:20 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:53:18 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:53:19 INFO  : XSDB server has started successfully.
+08:57:44 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:57:45 INFO  : XSDB server has started successfully.
+08:55:26 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:55:29 INFO  : XSDB server has started successfully.
+08:58:27 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:58:28 INFO  : XSDB server has started successfully.
+15:21:38 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:21:39 INFO  : XSDB server has started successfully.
+15:49:35 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:49:36 INFO  : XSDB server has started successfully.
+09:32:44 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:32:45 INFO  : XSDB server has started successfully.
+15:03:28 INFO  : ps7_init is completed.
+15:03:28 INFO  : ps7_post_config is completed.
+15:03:28 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:10:04 INFO  : ps7_init is completed.
+15:10:04 INFO  : ps7_post_config is completed.
+15:10:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:28:32 INFO  : ps7_init is completed.
+15:28:32 INFO  : ps7_post_config is completed.
+15:28:33 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:58 INFO  : ps7_init is completed.
+15:30:58 INFO  : ps7_post_config is completed.
+15:30:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:55 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:11:50 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:11:51 INFO  : XSDB server has started successfully.
+09:19:34 INFO  : ps7_init is completed.
+09:19:34 INFO  : ps7_post_config is completed.
+09:19:34 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:28:42 INFO  : ps7_init is completed.
+09:28:42 INFO  : ps7_post_config is completed.
+09:28:42 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:37:14 INFO  : ps7_init is completed.
+09:37:14 INFO  : ps7_post_config is completed.
+09:37:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:44:18 INFO  : ps7_init is completed.
+09:44:18 INFO  : ps7_post_config is completed.
+09:44:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:51:47 INFO  : ps7_init is completed.
+09:51:47 INFO  : ps7_post_config is completed.
+09:51:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:56:43 INFO  : ps7_init is completed.
+09:56:43 INFO  : ps7_post_config is completed.
+09:56:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:09:05 INFO  : ps7_init is completed.
+10:09:05 INFO  : ps7_post_config is completed.
+10:09:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:21:34 INFO  : ps7_init is completed.
+10:21:34 INFO  : ps7_post_config is completed.
+10:21:35 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:37:20 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:37:21 INFO  : XSDB server has started successfully.
+11:37:35 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+11:37:36 INFO  : XSDB server has started successfully.
+11:47:42 INFO  : Refreshed build settings on project GreedyFTL-3.0.0
+11:51:27 INFO  : Refreshed build settings on project GreedyFTL-3.0.0
+12:06:18 INFO  : Refreshed build settings on project GreedyFTL-3.0.0
+12:56:17 INFO  : ps7_init is completed.
+12:56:17 INFO  : ps7_post_config is completed.
+12:56:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:00:20 INFO  : ps7_init is completed.
+13:00:20 INFO  : ps7_post_config is completed.
+13:00:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:08:21 INFO  : ps7_init is completed.
+13:08:21 INFO  : ps7_post_config is completed.
+13:08:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:12:52 INFO  : ps7_init is completed.
+13:12:52 INFO  : ps7_post_config is completed.
+13:12:52 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:17:20 INFO  : ps7_init is completed.
+13:17:20 INFO  : ps7_post_config is completed.
+13:17:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:34:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF" && level==0} -index 1' command is executed.
+13:34:42 INFO  : 'fpga -state' command is executed.
+13:34:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:34:42 INFO  : Sourcing of '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_sansnand/OpenSSD2_hw_platform_0/ps7_init.tcl' is done.
+13:34:43 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:34:43 INFO  : Hardware design information is loaded from '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_sansnand/OpenSSD2_hw_platform_0/system.hdf'.
+13:34:43 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0' command is executed.
+13:34:43 INFO  : 'stop' command is executed.
+13:34:44 INFO  : 'ps7_init' command is executed.
+13:34:44 INFO  : 'ps7_post_config' command is executed.
+13:34:44 INFO  : 'con' command is executed.
+13:34:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:34:45 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+13:34:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:34:45 INFO  : The application '/home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_sansnand/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:34:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_sansnand/OpenSSD2_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+loadhw /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_sansnand/OpenSSD2_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+dow /home/giuseppezynq/OpenSSD_BRAM/Project/GreedyHdf_sansnand/GreedyFTL-3.0.0/Debug/GreedyFTL-3.0.0.elf
+----------------End of Script----------------
+
+13:34:45 INFO  : Memory regions updated for context APU
+13:34:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:34:46 INFO  : 'con' command is executed.
+13:34:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT2 210251A1B8FF"} -index 0
+con
+----------------End of Script----------------
+
+13:34:59 INFO  : Disconnected from the channel tcfchan#1.
+13:34:59 INFO  : ps7_init is completed.
+13:34:59 INFO  : ps7_post_config is completed.
+13:35:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:42:51 INFO  : ps7_init is completed.
+13:42:51 INFO  : ps7_post_config is completed.
+13:42:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:56:47 INFO  : ps7_init is completed.
+13:56:47 INFO  : ps7_post_config is completed.
+13:56:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:12:44 INFO  : ps7_init is completed.
+14:12:44 INFO  : ps7_post_config is completed.
+14:12:45 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:17:59 INFO  : ps7_init is completed.
+14:17:59 INFO  : ps7_post_config is completed.
+14:17:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:44:32 INFO  : ps7_init is completed.
+14:44:32 INFO  : ps7_post_config is completed.
+14:44:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:54:09 INFO  : ps7_init is completed.
+14:54:09 INFO  : ps7_post_config is completed.
+14:54:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:59:26 INFO  : ps7_init is completed.
+14:59:26 INFO  : ps7_post_config is completed.
+14:59:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:45:55 INFO  : ps7_init is completed.
+15:45:55 INFO  : ps7_post_config is completed.
+15:45:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:52:35 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:00:31 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+09:00:32 INFO  : XSDB server has started successfully.
+10:29:00 INFO  : ps7_init is completed.
+10:29:00 INFO  : ps7_post_config is completed.
+10:29:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:34:21 INFO  : ps7_init is completed.
+10:34:22 INFO  : ps7_post_config is completed.
+10:34:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:02:09 INFO  : ps7_init is completed.
+13:02:09 INFO  : ps7_post_config is completed.
+13:02:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:20:13 INFO  : ps7_init is completed.
+13:20:14 INFO  : ps7_post_config is completed.
+13:20:14 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:38:19 INFO  : ps7_init is completed.
+13:38:19 INFO  : ps7_post_config is completed.
+13:38:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:45:55 INFO  : ps7_init is completed.
+13:45:55 INFO  : ps7_post_config is completed.
+13:45:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:50:01 INFO  : ps7_init is completed.
+13:50:01 INFO  : ps7_post_config is completed.
+13:50:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:59:27 INFO  : ps7_init is completed.
+13:59:27 INFO  : ps7_post_config is completed.
+13:59:27 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:25:51 INFO  : ps7_init is completed.
+14:25:51 INFO  : ps7_post_config is completed.
+14:25:51 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:41:19 INFO  : ps7_init is completed.
+14:41:19 INFO  : ps7_post_config is completed.
+14:41:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:51:06 INFO  : ps7_init is completed.
+14:51:06 INFO  : ps7_post_config is completed.
+14:51:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:01:38 INFO  : ps7_init is completed.
+15:01:38 INFO  : ps7_post_config is completed.
+15:01:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:06:38 INFO  : ps7_init is completed.
+15:06:38 INFO  : ps7_post_config is completed.
+15:06:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:14:57 INFO  : ps7_init is completed.
+15:14:57 INFO  : ps7_post_config is completed.
+15:14:58 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:26:53 INFO  : ps7_init is completed.
+15:26:53 INFO  : ps7_post_config is completed.
+15:26:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:20 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:33:18 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:33:19 INFO  : XSDB server has started successfully.
+08:44:40 INFO  : ps7_init is completed.
+08:44:40 INFO  : ps7_post_config is completed.
+08:44:40 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:50:36 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:17:01 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:17:02 INFO  : XSDB server has started successfully.
+10:24:01 ERROR : Checking FPGA configuration failed..Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-JTAG-SMT2-210251A1B8FF on TCP:127.0.0.1:3121
+
+
+10:24:01 ERROR : Unexpected error while launching program.
+com.xilinx.sdk.targetmanager.TMException: Connection to Board Failed
+
+
+    Failed to open Cable Node jsn-JTAG-SMT2-210251A1B8FF on TCP:127.0.0.1:3121
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.isFPGAConfigured(TM.java:374)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.isFpgaConfigured(XilinxAppLaunchConfigurationDelegate.java:409)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:303)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+10:27:56 INFO  : ps7_init is completed.
+10:27:56 INFO  : ps7_post_config is completed.
+10:27:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:33:07 INFO  : ps7_init is completed.
+10:33:07 INFO  : ps7_post_config is completed.
+10:33:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:46:23 INFO  : ps7_init is completed.
+10:46:23 INFO  : ps7_post_config is completed.
+10:46:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:50:22 INFO  : ps7_init is completed.
+10:50:22 INFO  : ps7_post_config is completed.
+10:50:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:56:20 INFO  : ps7_init is completed.
+10:56:21 INFO  : ps7_post_config is completed.
+10:56:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:29:50 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:23:26 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:23:27 INFO  : XSDB server has started successfully.
+13:40:07 INFO  : ps7_init is completed.
+13:40:07 INFO  : ps7_post_config is completed.
+13:40:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:30:08 INFO  : ps7_init is completed.
+14:30:08 INFO  : ps7_post_config is completed.
+14:30:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:32:56 INFO  : ps7_init is completed.
+14:32:56 INFO  : ps7_post_config is completed.
+14:32:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:03:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:44:30 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:44:31 INFO  : XSDB server has started successfully.
+15:44:48 INFO  : ps7_init is completed.
+15:44:48 INFO  : ps7_post_config is completed.
+15:44:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:15:18 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+08:41:21 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:41:22 INFO  : XSDB server has started successfully.
+08:49:22 INFO  : ps7_init is completed.
+08:49:22 INFO  : ps7_post_config is completed.
+08:49:22 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:54:24 INFO  : ps7_init is completed.
+08:54:24 INFO  : ps7_post_config is completed.
+08:54:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:01:31 INFO  : ps7_init is completed.
+09:01:31 INFO  : ps7_post_config is completed.
+09:01:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:11:07 INFO  : ps7_init is completed.
+09:11:07 INFO  : ps7_post_config is completed.
+09:11:07 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:15:47 INFO  : ps7_init is completed.
+09:15:47 INFO  : ps7_post_config is completed.
+09:15:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:05:31 INFO  : ps7_init is completed.
+11:05:31 INFO  : ps7_post_config is completed.
+11:05:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:14:55 INFO  : ps7_init is completed.
+11:14:55 INFO  : ps7_post_config is completed.
+11:14:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:06:09 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:06:19 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+13:06:21 INFO  : XSDB server has started successfully.
+13:16:18 INFO  : ps7_init is completed.
+13:16:18 INFO  : ps7_post_config is completed.
+13:16:18 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:18:07 INFO  : ps7_init is completed.
+13:18:08 INFO  : ps7_post_config is completed.
+13:18:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:30:53 INFO  : ps7_init is completed.
+13:30:53 INFO  : ps7_post_config is completed.
+13:30:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:38:10 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:06:48 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:06:49 INFO  : XSDB server has started successfully.
+10:06:55 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590217888000,  Project:1582125458000
+10:06:55 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification located at /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+10:06:57 INFO  : Project OpenSSD2_hw_platform_0's source hardware specification location will not be monitored anymore.
+10:07:13 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1589904306000,  Project:1582125458000
+10:07:13 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_BRAM_2/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+10:07:16 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+10:07:18 INFO  : 
+10:07:18 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+10:07:18 INFO  : Clearing existing target manager status.
+10:07:20 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+10:07:20 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+10:07:41 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:08:10 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:08:11 INFO  : XSDB server has started successfully.
+10:13:50 INFO  : ps7_init is completed.
+10:13:50 INFO  : ps7_post_config is completed.
+10:13:50 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:29:46 INFO  : ps7_init is completed.
+10:29:46 INFO  : ps7_post_config is completed.
+10:29:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:31:29 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+10:32:05 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+10:32:06 INFO  : XSDB server has started successfully.
+10:35:18 INFO  : ps7_init is completed.
+10:35:19 INFO  : ps7_post_config is completed.
+10:35:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:31:02 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:13:55 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+15:13:56 INFO  : XSDB server has started successfully.
+07:15:54 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+07:15:55 INFO  : XSDB server has started successfully.
+08:25:05 INFO  : ps7_init is completed.
+08:25:05 INFO  : ps7_post_config is completed.
+08:25:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:28:04 INFO  : ps7_init is completed.
+08:28:04 INFO  : ps7_post_config is completed.
+08:28:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+08:45:13 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:45:14 INFO  : XSDB server has started successfully.
+08:45:25 INFO  : Launching XSDB server: xsdb -n /opt/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+08:45:26 INFO  : XSDB server has started successfully.
+08:52:43 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1590235691000,  Project:1589904306000
+08:52:43 INFO  : Copied contents of /home/giuseppezynq/OpenSSD_AXI_2/OpenSSD2.hdf into /OpenSSD2_hw_platform_0/system.hdf.
+08:52:47 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+08:52:49 INFO  : 
+08:52:49 INFO  : Updating hardware inferred compiler options for GreedyFTL-3.0.0.
+08:52:49 INFO  : Clearing existing target manager status.
+08:52:51 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+08:52:51 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+09:00:43 INFO  : ps7_init is completed.
+09:00:43 INFO  : ps7_post_config is completed.
+09:00:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:03:32 INFO  : ps7_init is completed.
+09:03:32 INFO  : ps7_post_config is completed.
+09:03:32 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:07:15 INFO  : ps7_init is completed.
+09:07:15 INFO  : ps7_post_config is completed.
+09:07:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+09:19:49 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
