@@ -1,0 +1,6 @@
+11:24:29 **** Incremental Build of configuration Release for project GreedyFTL-3.0.0 ****
+make all 
+make: Nothing to be done for `all'.
+
+11:24:29 Build Finished (took 60ms)
+

@@ -1,0 +1,662 @@
+#-----------------------------------------------------------
+# Vivado v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:54 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Wed May 20 17:36:26 2020
+# Process ID: 15834
+# Current directory: /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2
+# Command line: vivado -log OpenSSD2.vdi -applog -messageDb vivado.pb -mode batch -source OpenSSD2.tcl -notrace
+# Log file: /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/OpenSSD2.vdi
+# Journal file: /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source OpenSSD2.tcl -notrace
+Command: open_checkpoint /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/OpenSSD2.dcp
+INFO: [Netlist 29-17] Analyzing 230 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.4.2
+INFO: [Device 21-403] Loading part xc7z045ffg900-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-15834-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_board.xdc]
+Finished Parsing XDC File [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-15834-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_board.xdc]
+Parsing XDC File [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-15834-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.srcs/sources_1/bd/OpenSSD2/ip/OpenSSD2_NVMeHostController4L_0_0/src/pcie_7x_0_core_top/source/pcie_7x_0_core_top-PCIE_X0Y0.xdc:118]
+INFO: [Timing 38-2] Deriving generated clocks [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.srcs/sources_1/bd/OpenSSD2/ip/OpenSSD2_NVMeHostController4L_0_0/src/pcie_7x_0_core_top/source/pcie_7x_0_core_top-PCIE_X0Y0.xdc:118]
+create_generated_clock: Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1841.734 ; gain = 532.578 ; free physical = 9671 ; free virtual = 27444
+Finished Parsing XDC File [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-15834-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2_early.xdc]
+Parsing XDC File [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-15834-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2.xdc]
+Finished Parsing XDC File [/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/.Xil/Vivado-15834-giuseppezynq-OptiPlex-9010/dcp/OpenSSD2.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.22 . Memory (MB): peak = 1851.734 ; gain = 0.000 ; free physical = 9661 ; free virtual = 27433
+Restored from archive | CPU: 0.220000 secs | Memory: 0.014069 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.22 . Memory (MB): peak = 1851.734 ; gain = 0.000 ; free physical = 9661 ; free virtual = 27433
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3 instances were transformed.
+  RAM32M => RAM32M (RAMS32, RAMS32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32): 2 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2015.4.2 (64-bit) build 1494164
+open_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:39 . Memory (MB): peak = 1851.734 ; gain = 938.031 ; free physical = 9668 ; free virtual = 27432
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2020.01' and will expire in -110 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.38 ; elapsed = 00:00:00.30 . Memory (MB): peak = 1925.770 ; gain = 66.031 ; free physical = 9667 ; free virtual = 27431
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.cache/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/giuseppezynq/OpenSSD_BRAM/IPRepo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2015.4/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.1 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:1.1", from Vivado IP cache entry "cfcc7bd6a4c84397".
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:ila:6.0 for cell u_ila_0_0_CV.
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1999.762 ; gain = 0.000 ; free physical = 9469 ; free virtual = 27281
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1a1208d02
+
+Time (s): cpu = 00:04:56 ; elapsed = 00:05:59 . Memory (MB): peak = 1999.762 ; gain = 73.992 ; free physical = 9469 ; free virtual = 27281
+Implement Debug Cores | Checksum: 1d9a9f619
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2 Retarget
+INFO: [Opt 31-138] Pushed 3 inverter(s) to 11 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: 26599b783
+
+Time (s): cpu = 00:05:01 ; elapsed = 00:06:02 . Memory (MB): peak = 2084.773 ; gain = 159.004 ; free physical = 9446 ; free virtual = 27258
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 1249 cells.
+Phase 3 Constant Propagation | Checksum: 1ea06d891
+
+Time (s): cpu = 00:05:05 ; elapsed = 00:06:06 . Memory (MB): peak = 2084.773 ; gain = 159.004 ; free physical = 9437 ; free virtual = 27253
+
+Phase 4 Sweep
+INFO: [Opt 31-12] Eliminated 2690 unconnected nets.
+INFO: [Opt 31-11] Eliminated 1142 unconnected cells.
+Phase 4 Sweep | Checksum: 20687f0de
+
+Time (s): cpu = 00:05:08 ; elapsed = 00:06:09 . Memory (MB): peak = 2084.773 ; gain = 159.004 ; free physical = 9436 ; free virtual = 27252
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2084.773 ; gain = 0.000 ; free physical = 9436 ; free virtual = 27252
+Ending Logic Optimization Task | Checksum: 20687f0de
+
+Time (s): cpu = 00:05:08 ; elapsed = 00:06:09 . Memory (MB): peak = 2084.773 ; gain = 159.004 ; free physical = 9436 ; free virtual = 27252
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 233 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 72 newly gated: 7 Total Ports: 466
+Number of Flops added for Enable Generation: 2
+
+Ending PowerOpt Patch Enables Task | Checksum: 1c1085b49
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8891 ; free virtual = 26707
+Ending Power Optimization Task | Checksum: 1c1085b49
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:23 . Memory (MB): peak = 2722.605 ; gain = 637.832 ; free physical = 8894 ; free virtual = 26706
+INFO: [Common 17-83] Releasing license: Implementation
+41 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:05:40 ; elapsed = 00:06:34 . Memory (MB): peak = 2722.605 ; gain = 870.871 ; free physical = 8894 ; free virtual = 26706
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.06 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8890 ; free virtual = 26706
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/OpenSSD2_drc_opted.rpt.
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2020.01' and will expire in -110 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[10] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[11] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[5]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[12] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[6]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[13] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[7]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[14] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[8]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/ramb36sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[10] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[11] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[5]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[12] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[6]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[13] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[7]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[14] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[8]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[10] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[5]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[11] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[6]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[12] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[7]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[13] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[8]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[8]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[14] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[9]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[9]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/ramb36sdp_1/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[10] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[10] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1839) RAMB36 async control check - The RAMB36E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/genblk3_0.bram36_sdp_bl_2.bram36_sdp_bl_2/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/ramb36sdp_1/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_cntl_slave_inst0/pcie_cntl_rx_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/ramb18sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/pcie_dma_cmd_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/ramb18sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_rx_dma_inst0/pcie_rx_cmd_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/ramb18sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/pcie_tx_dma_inst0/pcie_tx_cmd_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[10] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[5]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[11] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[6]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[9] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/ramb18sdp_0/Q[4]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_hcmd_sq_fifo_inst0/r_rear_addr_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_dp_bl.bram18_tdp_bl has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_dp_bl.bram18_tdp_bl/ADDRBWRADDR[4] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_dp_bl.bram18_tdp_bl has an input control pin NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_dp_bl.bram18_tdp_bl/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/pcie_hcmd_inst0/pcie_hcmd_sq_inst0/pcie_sq_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_rx_cmd_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[5] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/Q[0]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/r_rear_addr_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[6] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/Q[1]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/r_rear_addr_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[7] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/Q[2]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/r_rear_addr_reg[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC 23-20] Rule violation (REQP-1840) RAMB18 async control check - The RAMB18E1 NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3 has an input control pin NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/genblk3_0.bram18_sdp_bl_3.bram18_sdp_bl_3/ADDRBWRADDR[8] (net: NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/ramb18sdp_0/Q[3]) which is driven by a register (NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/m_axi_dma_inst0/dev_tx_cmd_fifo_inst0/r_rear_addr_reg[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 73 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8879 ; free virtual = 26700
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8875 ; free virtual = 26696
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: 24e39fc6
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8875 ; free virtual = 26696
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard HSTL_I_18
+	FIXED_IO_mio[26] of IOStandard HSTL_I_18
+	FIXED_IO_mio[25] of IOStandard HSTL_I_18
+	FIXED_IO_mio[24] of IOStandard HSTL_I_18
+	FIXED_IO_mio[23] of IOStandard HSTL_I_18
+	FIXED_IO_mio[22] of IOStandard HSTL_I_18
+	FIXED_IO_mio[21] of IOStandard HSTL_I_18
+	FIXED_IO_mio[20] of IOStandard HSTL_I_18
+	FIXED_IO_mio[19] of IOStandard HSTL_I_18
+	FIXED_IO_mio[18] of IOStandard HSTL_I_18
+	FIXED_IO_mio[17] of IOStandard HSTL_I_18
+	FIXED_IO_mio[16] of IOStandard HSTL_I_18
+	FIXED_IO_mio[15] of IOStandard LVCMOS18
+	FIXED_IO_mio[14] of IOStandard LVCMOS18
+	FIXED_IO_mio[13] of IOStandard LVCMOS18
+	FIXED_IO_mio[12] of IOStandard LVCMOS18
+	FIXED_IO_mio[11] of IOStandard LVCMOS18
+	FIXED_IO_mio[10] of IOStandard LVCMOS18
+	FIXED_IO_mio[9] of IOStandard LVCMOS18
+	FIXED_IO_mio[8] of IOStandard LVCMOS18
+	FIXED_IO_mio[7] of IOStandard LVCMOS18
+	FIXED_IO_mio[6] of IOStandard LVCMOS18
+	FIXED_IO_mio[5] of IOStandard LVCMOS18
+	FIXED_IO_mio[4] of IOStandard LVCMOS18
+	FIXED_IO_mio[3] of IOStandard LVCMOS18
+	FIXED_IO_mio[2] of IOStandard LVCMOS18
+	FIXED_IO_mio[1] of IOStandard LVCMOS18
+	FIXED_IO_mio[0] of IOStandard LVCMOS18
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: 24e39fc6
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8869 ; free virtual = 26693
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: 24e39fc6
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8869 ; free virtual = 26693
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 3e45a0e0
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8869 ; free virtual = 26693
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 725b5c7b
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8869 ; free virtual = 26693
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: 1e391b51b
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8865 ; free virtual = 26691
+Phase 1.2.1 Place Init Design | Checksum: 1fcb3e02c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:16 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8863 ; free virtual = 26689
+Phase 1.2 Build Placer Netlist Model | Checksum: 1fcb3e02c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:16 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8863 ; free virtual = 26689
+
+Phase 1.3 Constrain Clocks/Macros
+
+Phase 1.3.1 Constrain Global/Regional Clocks
+Phase 1.3.1 Constrain Global/Regional Clocks | Checksum: 1fcb3e02c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:16 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8862 ; free virtual = 26689
+Phase 1.3 Constrain Clocks/Macros | Checksum: 1fcb3e02c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:16 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8862 ; free virtual = 26689
+Phase 1 Placer Initialization | Checksum: 1fcb3e02c
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:16 . Memory (MB): peak = 2722.605 ; gain = 0.000 ; free physical = 8862 ; free virtual = 26689
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1617c4f6f
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:33 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8845 ; free virtual = 26690
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1617c4f6f
+
+Time (s): cpu = 00:01:14 ; elapsed = 00:00:33 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8845 ; free virtual = 26690
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 18c5ff733
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:00:38 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8844 ; free virtual = 26690
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 174fe2901
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:00:38 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8845 ; free virtual = 26690
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 174fe2901
+
+Time (s): cpu = 00:01:30 ; elapsed = 00:00:38 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8845 ; free virtual = 26690
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 15751188d
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:00:39 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8844 ; free virtual = 26690
+
+Phase 3.6 Fast Optimization
+Phase 3.6 Fast Optimization | Checksum: 14ed0aee9
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:00:40 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8843 ; free virtual = 26689
+
+Phase 3.7 Small Shape Detail Placement
+
+Phase 3.7.1 Commit Small Macros and Core Logic
+
+Phase 3.7.1.1 Commit Slice Clusters
+Phase 3.7.1.1 Commit Slice Clusters | Checksum: e57da5a3
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:00:48 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8861 ; free virtual = 26690
+Phase 3.7.1 Commit Small Macros and Core Logic | Checksum: e57da5a3
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:00:48 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8861 ; free virtual = 26689
+
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns
+Phase 3.7.2 Clock Restriction Legalization for Leaf Columns | Checksum: e57da5a3
+
+Time (s): cpu = 00:01:43 ; elapsed = 00:00:48 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8861 ; free virtual = 26689
+
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins
+Phase 3.7.3 Clock Restriction Legalization for Non-Clock Pins | Checksum: e57da5a3
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8861 ; free virtual = 26689
+Phase 3.7 Small Shape Detail Placement | Checksum: e57da5a3
+
+Time (s): cpu = 00:01:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8861 ; free virtual = 26689
+
+Phase 3.8 Re-assign LUT pins
+Phase 3.8 Re-assign LUT pins | Checksum: 1bc7a8f60
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:00:50 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 3 Detail Placement | Checksum: 1bc7a8f60
+
+Time (s): cpu = 00:01:45 ; elapsed = 00:00:50 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+
+Phase 4.1.1 callUpdateTimingBeforePCO
+Phase 4.1.1 callUpdateTimingBeforePCO | Checksum: 1e2016a1d
+
+Time (s): cpu = 00:01:56 ; elapsed = 00:00:53 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.1.2 updateClock Trees: PCOPT
+Phase 4.1.2 updateClock Trees: PCOPT | Checksum: 1e2016a1d
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:53 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.1.3 Post Placement Optimization
+
+Phase 4.1.3.1 PCOPT Shape updates
+
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes
+Phase 4.1.3.1.1 removeOptionalFFsFromShapes | Checksum: 1e2016a1d
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:53 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.1.3.1.2 deleteLutnmShapes
+
+Phase 4.1.3.1.2.1 deleteShapes
+Phase 4.1.3.1.2.1 deleteShapes | Checksum: 1166fba2f
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:53 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 4.1.3.1.2 deleteLutnmShapes | Checksum: 1166fba2f
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:53 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 4.1.3.1 PCOPT Shape updates | Checksum: 1166fba2f
+
+Time (s): cpu = 00:01:57 ; elapsed = 00:00:54 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.1.3.2 Post Placement Timing Optimization
+
+Phase 4.1.3.2.1 Restore Best Placement
+Phase 4.1.3.2.1 Restore Best Placement | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:09 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.186. For the most accurate timing information please run report_timing.
+Phase 4.1.3.2 Post Placement Timing Optimization | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:09 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 4.1.3 Post Placement Optimization | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:09 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 4.1 Post Commit Optimization | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:10 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:10 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:10 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:10 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 4.4 Placer Reporting | Checksum: 6650f14f
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:10 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 65e16a01
+
+Time (s): cpu = 00:02:14 ; elapsed = 00:01:11 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 65e16a01
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:01:11 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Ending Placer Task | Checksum: 54dc4e92
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:01:11 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+INFO: [Common 17-83] Releasing license: Implementation
+58 Infos, 74 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:02:18 ; elapsed = 00:01:13 . Memory (MB): peak = 2745.641 ; gain = 23.035 ; free physical = 8860 ; free virtual = 26689
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:02 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8819 ; free virtual = 26688
+report_io: Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.31 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8846 ; free virtual = 26687
+report_utilization: Time (s): cpu = 00:00:00.29 ; elapsed = 00:00:00.35 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8846 ; free virtual = 26686
+report_control_sets: Time (s): cpu = 00:00:00.21 ; elapsed = 00:00:00.27 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8845 ; free virtual = 26686
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z045'
+INFO: [Common 17-1223] The version limit for your license is '2020.01' and will expire in -110 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (PLIO-7) Placement Constraints Check for IO constraints - An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are: HSTL_I_18 (FIXED_IO_mio[27], FIXED_IO_mio[26], FIXED_IO_mio[25], FIXED_IO_mio[24], FIXED_IO_mio[23], FIXED_IO_mio[22], FIXED_IO_mio[21], FIXED_IO_mio[20], FIXED_IO_mio[19], FIXED_IO_mio[18], FIXED_IO_mio[17], FIXED_IO_mio[16]); LVCMOS18 (FIXED_IO_mio[53], FIXED_IO_mio[52], FIXED_IO_mio[51], FIXED_IO_mio[50], FIXED_IO_mio[49], FIXED_IO_mio[48], FIXED_IO_mio[47], FIXED_IO_mio[46], FIXED_IO_mio[45], FIXED_IO_mio[44], FIXED_IO_mio[43], FIXED_IO_mio[42], FIXED_IO_mio[41], FIXED_IO_mio[40], FIXED_IO_mio[39] (the first 15 of 42 listed)); 
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 1c111a83 ConstDB: 0 ShapeSum: 38cb340f RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 88dd345a
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:45 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8829 ; free virtual = 26672
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 88dd345a
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:46 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8828 ; free virtual = 26672
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 88dd345a
+
+Time (s): cpu = 00:01:00 ; elapsed = 00:00:46 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8827 ; free virtual = 26672
+ Number of Nodes with overlaps = 0
+
+Phase 2.3 Update Timing
+Phase 2.3 Update Timing | Checksum: fc67cc02
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:55 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8826 ; free virtual = 26671
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.288  | TNS=0.000  | WHS=-0.543 | THS=-1158.384|
+
+Phase 2 Router Initialization | Checksum: 16d0ba4ee
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:00:57 . Memory (MB): peak = 2745.641 ; gain = 0.000 ; free physical = 8824 ; free virtual = 26670
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 184f03482
+
+Time (s): cpu = 00:03:25 ; elapsed = 00:01:40 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2027
+ Number of Nodes with overlaps = 146
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1cc6bd6bf
+
+Time (s): cpu = 00:04:15 ; elapsed = 00:02:00 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.026  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 179fe580c
+
+Time (s): cpu = 00:04:16 ; elapsed = 00:02:00 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+Phase 4 Rip-up And Reroute | Checksum: 179fe580c
+
+Time (s): cpu = 00:04:16 ; elapsed = 00:02:00 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 17b35aaa1
+
+Time (s): cpu = 00:04:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.066  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 17b35aaa1
+
+Time (s): cpu = 00:04:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 17b35aaa1
+
+Time (s): cpu = 00:04:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+Phase 5 Delay and Skew Optimization | Checksum: 17b35aaa1
+
+Time (s): cpu = 00:04:19 ; elapsed = 00:02:01 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Update Timing
+Phase 6.1 Update Timing | Checksum: 1e6d792d9
+
+Time (s): cpu = 00:04:23 ; elapsed = 00:02:02 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26351
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.066  | TNS=0.000  | WHS=0.040  | THS=0.000  |
+
+Phase 6 Post Hold Fix | Checksum: 154948372
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:02:03 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26351
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 3.75023 %
+  Global Horizontal Routing Utilization  = 3.81866 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 171e53bf0
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:02:03 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26351
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 171e53bf0
+
+Time (s): cpu = 00:04:24 ; elapsed = 00:02:03 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26351
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1002ae28c
+
+Time (s): cpu = 00:04:26 ; elapsed = 00:02:04 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+
+Phase 10 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.066  | TNS=0.000  | WHS=0.040  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1002ae28c
+
+Time (s): cpu = 00:04:26 ; elapsed = 00:02:05 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:04:26 ; elapsed = 00:02:05 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+72 Infos, 75 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:04:29 ; elapsed = 00:02:07 . Memory (MB): peak = 2921.586 ; gain = 175.945 ; free physical = 8505 ; free virtual = 26350
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:06 ; elapsed = 00:00:02 . Memory (MB): peak = 2953.602 ; gain = 0.000 ; free physical = 8454 ; free virtual = 26351
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/impl_2/OpenSSD2_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Wed May 20 17:47:33 2020...

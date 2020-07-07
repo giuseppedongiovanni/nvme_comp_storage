@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_2" LaunchDir="/home/giuseppezynq/OpenSSD_BRAM/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.runs/synth_2" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

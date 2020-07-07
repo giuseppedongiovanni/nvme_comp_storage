@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.4.2 (lin64) Build 1494164 Fri Feb 26 04:18:54 MST 2016
+| Date         : Tue May 19 18:44:22 2020
+| Host         : giuseppezynq-OptiPlex-9010 running 64-bit Ubuntu 14.04.6 LTS
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'OpenSSD2_NVMeHostController4L_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of OpenSSD2_NVMeHostController4L_0_0 (ENCLab:ip:NVMeHostController4L:1.0.1) from (Rev. 2) to (Rev. 4)
+

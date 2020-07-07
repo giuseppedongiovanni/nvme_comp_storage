@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/giuseppezynq/OpenSSD_BRAM_working_write/OpenSSD2_2Ch8Way-1.0.3/OpenSSD2.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="7498399fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="24" />
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/cur_state">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/cur_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/cur_state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/cur_wr_state">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/cur_wr_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/cur_wr_state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_front_sync_addr">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_front_sync_addr[9:1]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_front_sync_addr[9:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg_n_0_">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg_n_0_[0:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_addr_reg_n_0_[0:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_sync_data">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_sync_data[9:1]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_rear_sync_data[9:1]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_wr_en">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_wr_en</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_cmd_fifo_inst0/r_wr_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_cnt_reg[7]_0">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_cnt_reg[7]_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_cnt_reg[7]_0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_d1">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_d1</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_d1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_d2">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_d2</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_rx_done_d2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_tx_done_cnt_reg[7]_0">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_tx_done_cnt_reg[7]_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/nvme_pcie_inst0/dma_if_inst0/dma_cmd_inst0/dma_done_inst0/r_dma_tx_done_cnt_reg[7]_0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/cur_rd_state">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/cur_rd_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/cur_rd_state[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/cur_wr_state">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/cur_wr_state[7:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/cur_wr_state[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_araddr">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_araddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_araddr[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_arvalid">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awaddr">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awaddr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awaddr[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awready_INST_0_i_1_n_0">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awready_INST_0_i_1_n_0</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awready_INST_0_i_1_n_0</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awvalid">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_bready">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_bvalid">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rdata">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rready">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rvalid">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rvalid</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_wdata">
+      <obj_property name="ElementShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NVMeHostController4L_0/inst/user_top_inst0/s_axi_top_inst0/s_axi_reg_inst0/s0_axi_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
