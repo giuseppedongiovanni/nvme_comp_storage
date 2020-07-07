@@ -1,0 +1,72 @@
+script
+
+command_1 2394.00 ns 
+kounter1: 1 
+check_2 164.00 ns 
+check_2 162.00 ns 
+check_2 162.00 ns 
+check_2 178.00 ns 
+check_2 370.00 ns 
+check_2 352.00 ns 
+check_2 352.00 ns 
+check_2 352.00 ns 
+check_2 352.00 ns 
+check_2 522.00 ns 
+scheduling_3 1760.00 ns 
+scheduling_3 1230.00 ns 
+scheduling_3 105164.00 ns 
+scheduling_3 3038.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+kounter2: 10 
+
+
+
+dd
+
+command_1 1826.00 ns 
+kounter1: 1 
+check_2 164.00 ns 
+check_2 164.00 ns 
+check_2 162.00 ns 
+check_2 162.00 ns 
+check_2 386.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 510.00 ns 
+scheduling_3 1250.00 ns 
+scheduling_3 770.00 ns 
+scheduling_3 103080.00 ns 
+scheduling_3 3094.00 ns 
+scheduling_3 286.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+kounter2: 10
+
+fio
+
+command_1 1626.00 ns 
+kounter1: 1 
+check_2 182.00 ns 
+check_2 164.00 ns 
+check_2 162.00 ns 
+check_2 180.00 ns 
+check_2 350.00 ns 
+check_2 522.00 ns 
+scheduling_3 1344.00 ns 
+scheduling_3 822.00 ns 
+scheduling_3 104470.00 ns 
+scheduling_3 1792.00 ns 
+scheduling_3 274.00 ns 
+scheduling_3 274.00 ns 
+kounter2: 6 
+

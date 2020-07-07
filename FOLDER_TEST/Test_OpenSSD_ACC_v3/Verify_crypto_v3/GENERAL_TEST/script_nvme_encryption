@@ -1,0 +1,27 @@
+//crypto key128
+sudo nvme set-feature /dev/nvme0 -f 0xC0 -v 0x2
+sudo nvme set-feature /dev/nvme0 -f 0xC1 -v 0x09cf4f3c
+sudo nvme set-feature /dev/nvme0 -f 0xC2 -v 0xabf71588
+sudo nvme set-feature /dev/nvme0 -f 0xC3 -v 0x28aed2a6
+sudo nvme set-feature /dev/nvme0 -f 0xC4 -v 0x2b7e1516
+
+
+//crypto key256
+sudo nvme set-feature /dev/nvme0 -f 0xC0 -v 0x8
+sudo nvme set-feature /dev/nvme0 -f 0xC1 -v 0x0914dff4
+sudo nvme set-feature /dev/nvme0 -f 0xC2 -v 0x2d9810a3
+sudo nvme set-feature /dev/nvme0 -f 0xC3 -v 0x3b6108d7
+sudo nvme set-feature /dev/nvme0 -f 0xC4 -v 0x1f352c07
+sudo nvme set-feature /dev/nvme0 -f 0xC5 -v 0x857d7781
+sudo nvme set-feature /dev/nvme0 -f 0xC6 -v 0x2b73aef0
+sudo nvme set-feature /dev/nvme0 -f 0xC7 -v 0x15ca71be
+sudo nvme set-feature /dev/nvme0 -f 0xC8 -v 0x603deb10
+
+
+
+//IV
+sudo nvme set-feature /dev/nvme0 -f 0xCA -v 0xfcfdfeff
+sudo nvme set-feature /dev/nvme0 -f 0xCB -v 0xf8f9fafb
+sudo nvme set-feature /dev/nvme0 -f 0xCC -v 0xf4f5f6f7
+sudo nvme set-feature /dev/nvme0 -f 0xCD -v 0xf0f1f2f3
+

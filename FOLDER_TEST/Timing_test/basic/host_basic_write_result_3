@@ -1,0 +1,132 @@
+sudo ./write_script_nvme 
+size=4096 
+getres:         0.000000001 s; diff res: 54 ns 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+0: 138058 ns 
+1: 30095 ns 
+2: 22636 ns 
+3: 21494 ns 
+4: 21988253 ns 
+5: 38404 ns 
+6: 25985 ns 
+7: 25284 ns 
+8: 25471 ns 
+9: 25087 ns 
+10: 25046 ns 
+11: 24168 ns 
+12: 24123 ns 
+13: 305081 ns 
+14: 275715 ns 
+15: 301397 ns 
+16: 359259 ns 
+17: 350343 ns 
+18: 110662 ns 
+19: 7238 ns 
+20: 3146 ns 
+21: 3010 ns 
+22: 2791 ns 
+23: 2977 ns 
+24: 3081 ns 
+25: 2903 ns 
+26: 3460 ns 
+27: 3181 ns 
+28: 3476 ns 
+29: 3403 ns 
+30: 2977 ns 
+31: 3018 ns 
+32: 2950 ns 
+33: 2819 ns 
+34: 3528 ns 
+35: 3480 ns 
+36: 3128 ns 
+37: 3297 ns 
+38: 3001 ns 
+39: 3275 ns 
+40: 3246 ns 
+41: 2890 ns 
+42: 3370 ns 
+43: 3130 ns 
+44: 3133 ns 
+45: 3117 ns 
+46: 2999 ns 
+47: 3200 ns 
+48: 3111 ns 
+49: 2976 ns 
+50: 3495 ns 
+51: 3270 ns 
+52: 2915 ns 
+53: 3280 ns 
+54: 3053 ns 
+55: 3060 ns 
+56: 3156 ns 
+57: 2996 ns 
+58: 3275 ns 
+59: 3118 ns 
+60: 3047 ns 
+61: 3247 ns 
+62: 3031 ns 
+63: 3125 ns 
+

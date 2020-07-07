@@ -1,0 +1,42 @@
+FIO
+
+command_1 1690.00 ns 
+kounter1: 1 
+check_2 164.00 ns 
+check_2 168.00 ns 
+check_2 164.00 ns 
+check_2 164.00 ns 
+check_2 346.00 ns 
+check_2 532.00 ns 
+scheduling_3 996.00 ns 
+scheduling_3 678.00 ns 
+scheduling_3 121350.00 ns 
+scheduling_3 1908.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+kounter2: 6 
+
+
+dd
+command_1 4102.00 ns 
+kounter1: 1 
+check_2 234.00 ns 
+check_2 174.00 ns 
+check_2 164.00 ns 
+check_2 164.00 ns 
+check_2 378.00 ns 
+check_2 352.00 ns 
+check_2 352.00 ns 
+check_2 350.00 ns 
+check_2 620.00 ns 
+scheduling_3 3920.00 ns 
+scheduling_3 1444.00 ns 
+scheduling_3 119074.00 ns 
+scheduling_3 3890.00 ns 
+scheduling_3 316.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 292.00 ns 
+kounter2: 9 
+

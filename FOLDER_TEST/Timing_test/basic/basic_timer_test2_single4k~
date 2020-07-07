@@ -1,0 +1,42 @@
+FIO
+
+command_1 1690.00 ns 
+kounter1: 1 
+memcpy_data 164.00 ns 
+memcpy_data 168.00 ns 
+memcpy_data 164.00 ns 
+memcpy_data 164.00 ns 
+memcpy_data 346.00 ns 
+memcpy_data 532.00 ns 
+memcpy_spare 996.00 ns 
+memcpy_spare 678.00 ns 
+memcpy_spare 121350.00 ns 
+memcpy_spare 1908.00 ns 
+memcpy_spare 272.00 ns 
+memcpy_spare 272.00 ns 
+kounter2: 6 
+
+
+dd
+command_1 4102.00 ns 
+kounter1: 1 
+memcpy_data 234.00 ns 
+memcpy_data 174.00 ns 
+memcpy_data 164.00 ns 
+memcpy_data 164.00 ns 
+memcpy_data 378.00 ns 
+memcpy_data 352.00 ns 
+memcpy_data 352.00 ns 
+memcpy_data 350.00 ns 
+memcpy_data 620.00 ns 
+memcpy_spare 3920.00 ns 
+memcpy_spare 1444.00 ns 
+memcpy_spare 119074.00 ns 
+memcpy_spare 3890.00 ns 
+memcpy_spare 316.00 ns 
+memcpy_spare 272.00 ns 
+memcpy_spare 272.00 ns 
+memcpy_spare 272.00 ns 
+memcpy_spare 292.00 ns 
+kounter2: 9 
+

@@ -1,0 +1,264 @@
+write 64 accv1
+reds@reds:~/Desktop$ sudo ./write_script_nvme
+size=4096 
+getres:         0.000000001 s; diff res: 56 ns 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+0: 153834 ns 
+1: 19022686 ns 
+2: 31686 ns 
+3: 26391 ns 
+4: 24487 ns 
+5: 25142 ns 
+6: 25071 ns 
+7: 24872 ns 
+8: 25278 ns 
+9: 24795 ns 
+10: 24664 ns 
+11: 24742 ns 
+12: 24927 ns 
+13: 401730 ns 
+14: 202534 ns 
+15: 197727 ns 
+16: 192605 ns 
+17: 19850345 ns 
+18: 20373 ns 
+19: 6444 ns 
+20: 4735 ns 
+21: 5611 ns 
+22: 5208 ns 
+23: 5733 ns 
+24: 5244 ns 
+25: 4544 ns 
+26: 5055 ns 
+27: 4436 ns 
+28: 4871 ns 
+29: 5319 ns 
+30: 4698 ns 
+31: 5137 ns 
+32: 4807 ns 
+33: 4268 ns 
+34: 4778 ns 
+35: 4663 ns 
+36: 4571 ns 
+37: 4845 ns 
+38: 4731 ns 
+39: 4844 ns 
+40: 4751 ns 
+41: 5298 ns 
+42: 4999 ns 
+43: 4969 ns 
+44: 4617 ns 
+45: 4789 ns 
+46: 4920 ns 
+47: 4679 ns 
+48: 4835 ns 
+49: 4531 ns 
+50: 4977 ns 
+51: 5125 ns 
+52: 4673 ns 
+53: 4686 ns 
+54: 4512 ns 
+55: 4613 ns 
+56: 4692 ns 
+57: 4496 ns 
+58: 5493 ns 
+59: 4927 ns 
+60: 4985 ns 
+61: 4944 ns 
+62: 4619 ns 
+63: 4813 ns 
+
+reds@reds:~/Desktop$ sudo ./write_script_nvme 
+size=4096 
+getres:         0.000000001 s; diff res: 311 ns 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+0: 437528 ns 
+1: 300556 ns 
+2: 282633 ns 
+3: 26487334 ns 
+4: 708442 ns 
+5: 293377 ns 
+6: 282084 ns 
+7: 251198 ns 
+8: 255743 ns 
+9: 253136 ns 
+10: 252851 ns 
+11: 259132 ns 
+12: 282696 ns 
+13: 450696 ns 
+14: 448421 ns 
+15: 439068 ns 
+16: 292562 ns 
+17: 289867 ns 
+18: 187416 ns 
+19: 27231 ns 
+20: 11905 ns 
+21: 12911 ns 
+22: 12780 ns 
+23: 11160 ns 
+24: 12716 ns 
+25: 15922 ns 
+26: 11978 ns 
+27: 12293 ns 
+28: 11409 ns 
+29: 10826 ns 
+30: 11783 ns 
+31: 11353 ns 
+32: 11716 ns 
+33: 12215 ns 
+34: 11534 ns 
+35: 11096 ns 
+36: 11371 ns 
+37: 11405 ns 
+38: 11925 ns 
+39: 11464 ns 
+40: 11607 ns 
+41: 11903 ns 
+42: 11035 ns 
+43: 11783 ns 
+44: 10875 ns 
+45: 11284 ns 
+46: 11685 ns 
+47: 11180 ns 
+48: 11808 ns 
+49: 11719 ns 
+50: 10777 ns 
+51: 11687 ns 
+52: 11347 ns 
+53: 11077 ns 
+54: 11602 ns 
+55: 11037 ns 
+56: 11573 ns 
+57: 11719 ns 
+58: 10712 ns 
+59: 11722 ns 
+60: 11259 ns 
+61: 11157 ns 
+62: 11587 ns 
+63: 11024 ns 

@@ -1,0 +1,132 @@
+reds@reds:~/Desktop$ sudo gcc write_script_nvme.c -o write_script_nvme -lrt
+reds@reds:~/Desktop$ sudo ./write_script_nvme 
+size=4096 
+getres:         0.000000001 s; diff res: 354 ns 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+size=4096 
+0: 432696 ns 
+1: 284633 ns 
+2: 274414 ns 
+3: 30027296 ns 
+4: 640997 ns 
+5: 274047 ns 
+6: 262664 ns 
+7: 232700 ns 
+8: 232204 ns 
+9: 234151 ns 
+10: 236795 ns 
+11: 232914 ns 
+12: 231822 ns 
+13: 368206 ns 
+14: 404312 ns 
+15: 396498 ns 
+16: 261951 ns 
+17: 257000 ns 
+18: 20363016 ns 
+19: 448959 ns 
+20: 412176 ns 
+21: 406527 ns 
+22: 401230 ns 
+23: 393461 ns 
+24: 407789 ns 
+25: 404506 ns 
+26: 391115 ns 
+27: 190414 ns 
+28: 26555 ns 
+29: 12640 ns 
+30: 11973 ns 
+31: 11333 ns 
+32: 12461 ns 
+33: 11525 ns 
+34: 10895 ns 
+35: 11263 ns 
+36: 12880 ns 
+37: 11789 ns 
+38: 11672 ns 
+39: 10527 ns 
+40: 12310 ns 
+41: 11561 ns 
+42: 11522 ns 
+43: 11967 ns 
+44: 11436 ns 
+45: 12417 ns 
+46: 11554 ns 
+47: 10608 ns 
+48: 11566 ns 
+49: 11613 ns 
+50: 11911 ns 
+51: 11882 ns 
+52: 11601 ns 
+53: 11438 ns 
+54: 11539 ns 
+55: 10802 ns 
+56: 12010 ns 
+57: 11479 ns 
+58: 11218 ns 
+59: 11999 ns 
+60: 10991 ns 
+61: 11430 ns 
+62: 11116 ns 
+63: 11056 ns 

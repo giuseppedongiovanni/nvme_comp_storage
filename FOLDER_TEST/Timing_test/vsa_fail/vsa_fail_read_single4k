@@ -1,0 +1,48 @@
+dd
+
+command_1 2576.00 ns 
+kounter1: 1 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 512.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+kounter2: 6
+
+
+fio
+ 
+command_1 2064.00 ns 
+kounter1: 1 
+check_2 452.00 ns 
+check_2 558.00 ns 
+scheduling_3 446.00 ns 
+scheduling_3 290.00 ns 
+kounter2: 2 
+
+
+script
+
+command_1 2718.00 ns 
+kounter1: 1 
+check_2 368.00 ns 
+check_2 346.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 350.00 ns 
+check_2 530.00 ns 
+scheduling_3 290.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+scheduling_3 272.00 ns 
+kounter2: 6
+
