@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Accelerator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Accelerator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="56108000fs"></ZoomStartTime>
+      <ZoomEndTime time="60733001fs"></ZoomEndTime>
+      <Cursor1Time time="55500000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="54" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/clk">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/vector_in[3]">
+      <obj_property name="ElementShortName">[3][127:0]</obj_property>
+      <obj_property name="ObjectShortName">vector_in[3][127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/vector_in[2]">
+      <obj_property name="ElementShortName">[2][127:0]</obj_property>
+      <obj_property name="ObjectShortName">vector_in[2][127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/vector_in[1]">
+      <obj_property name="ElementShortName">[1][127:0]</obj_property>
+      <obj_property name="ObjectShortName">vector_in[1][127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/vector_in[0]">
+      <obj_property name="ElementShortName">[0][127:0]</obj_property>
+      <obj_property name="ObjectShortName">vector_in[0][127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/start_counter">
+      <obj_property name="ElementShortName">start_counter[127:0]</obj_property>
+      <obj_property name="ObjectShortName">start_counter[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/aes_128_inst/key">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/aes_256_inst/key">
+      <obj_property name="ElementShortName">key[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key[255:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/data_in_pipe">
+      <obj_property name="ElementShortName">data_in_pipe[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in_pipe[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/crypto_128">
+      <obj_property name="ElementShortName">crypto_128[127:0]</obj_property>
+      <obj_property name="ObjectShortName">crypto_128[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/crypto_128_pipe">
+      <obj_property name="ElementShortName">crypto_128_pipe[127:0]</obj_property>
+      <obj_property name="ObjectShortName">crypto_128_pipe[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/crypto_256">
+      <obj_property name="ElementShortName">crypto_256[127:0]</obj_property>
+      <obj_property name="ObjectShortName">crypto_256[127:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/crypto_256_pipe">
+      <obj_property name="ElementShortName">crypto_256_pipe[127:0]</obj_property>
+      <obj_property name="ObjectShortName">crypto_256_pipe[127:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/counter_data">
+      <obj_property name="ElementShortName">counter_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/computed_data">
+      <obj_property name="ElementShortName">computed_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">computed_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/FIFO_DATA_OUT">
+      <obj_property name="ElementShortName">FIFO_DATA_OUT[127:0]</obj_property>
+      <obj_property name="ObjectShortName">FIFO_DATA_OUT[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/reverse_data">
+      <obj_property name="ElementShortName">reverse_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">reverse_data[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/rst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/counter_rst">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">counter_rst</obj_property>
+      <obj_property name="ObjectShortName">counter_rst</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/svalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">svalid</obj_property>
+      <obj_property name="ObjectShortName">svalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/slast_delay">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">slast_delay</obj_property>
+      <obj_property name="ObjectShortName">slast_delay</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/sready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">sready</obj_property>
+      <obj_property name="ObjectShortName">sready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/configuration">
+      <obj_property name="ElementShortName">configuration[31:0]</obj_property>
+      <obj_property name="ObjectShortName">configuration[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/slast">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">slast</obj_property>
+      <obj_property name="ObjectShortName">slast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/data_in">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">data_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/rev_data_in">
+      <obj_property name="ElementShortName">rev_data_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rev_data_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/i">
+      <obj_property name="ElementShortName">i[2:0]</obj_property>
+      <obj_property name="ObjectShortName">i[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/write_pointer">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">write_pointer[8:0]</obj_property>
+      <obj_property name="ObjectShortName">write_pointer[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/read_pointer">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">read_pointer[8:0]</obj_property>
+      <obj_property name="ObjectShortName">read_pointer[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/status_cnt">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">status_cnt[8:0]</obj_property>
+      <obj_property name="ObjectShortName">status_cnt[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/FIFO_LAST_OUT">
+      <obj_property name="ElementShortName">FIFO_LAST_OUT</obj_property>
+      <obj_property name="ObjectShortName">FIFO_LAST_OUT</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/fifo_rden">
+      <obj_property name="ElementShortName">fifo_rden</obj_property>
+      <obj_property name="ObjectShortName">fifo_rden</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/EMPTY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">EMPTY</obj_property>
+      <obj_property name="ObjectShortName">EMPTY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/exec_state">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">exec_state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">exec_state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/counter">
+      <obj_property name="ElementShortName">counter[127:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_block_int/parameter_128">
+      <obj_property name="ElementShortName">parameter_128[127:0]</obj_property>
+      <obj_property name="ObjectShortName">parameter_128[127:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/last_pipe">
+      <obj_property name="ElementShortName">last_pipe</obj_property>
+      <obj_property name="ObjectShortName">last_pipe</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/enable">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/valid_crypto">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">valid_crypto</obj_property>
+      <obj_property name="ObjectShortName">valid_crypto</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/valid_fifo_wire">
+      <obj_property name="ElementShortName">valid_fifo_wire</obj_property>
+      <obj_property name="ObjectShortName">valid_fifo_wire</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/valid_fifoin">
+      <obj_property name="ElementShortName">valid_fifoin</obj_property>
+      <obj_property name="ObjectShortName">valid_fifoin</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/valid_fifoin_2">
+      <obj_property name="ElementShortName">valid_fifoin_2</obj_property>
+      <obj_property name="ObjectShortName">valid_fifoin_2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_block_int/valid_fifoin_3">
+      <obj_property name="ElementShortName">valid_fifoin_3</obj_property>
+      <obj_property name="ObjectShortName">valid_fifoin_3</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/VALID_IN">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">VALID_IN</obj_property>
+      <obj_property name="ObjectShortName">VALID_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_S00_AXIS_inst/DATA_OUT">
+      <obj_property name="ElementShortName">DATA_OUT[127:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_OUT[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/write_pointer">
+      <obj_property name="ElementShortName">write_pointer[9:0]</obj_property>
+      <obj_property name="ObjectShortName">write_pointer[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/read_pointer">
+      <obj_property name="ElementShortName">read_pointer[9:0]</obj_property>
+      <obj_property name="ObjectShortName">read_pointer[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/status_cnt">
+      <obj_property name="ElementShortName">status_cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">status_cnt[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/LAST_IN">
+      <obj_property name="ElementShortName">LAST_IN</obj_property>
+      <obj_property name="ObjectShortName">LAST_IN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/tx_en">
+      <obj_property name="ElementShortName">tx_en</obj_property>
+      <obj_property name="ObjectShortName">tx_en</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/mvalid">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mvalid</obj_property>
+      <obj_property name="ObjectShortName">mvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/mready">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">mready</obj_property>
+      <obj_property name="ObjectShortName">mready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Accelerator_tb/dut/m00_axis_tlast">
+      <obj_property name="ElementShortName">m00_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m00_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Accelerator_tb/dut/Accelerator_v3_0_M00_AXIS_inst/last_fifo">
+      <obj_property name="ElementShortName">last_fifo[0:511]</obj_property>
+      <obj_property name="ObjectShortName">last_fifo[0:511]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../rtl/table.v"
+verilog xil_defaultlib  "../../../rtl/round.v"
+verilog xil_defaultlib  "../../../rtl/aes_256.v"
+verilog xil_defaultlib  "../../../rtl/aes_128.v"
+verilog xil_defaultlib  "../../../Accelerator_block.v"
+verilog xil_defaultlib  "../../../Accelerator_v3_0_S00_AXIS.v"
+verilog xil_defaultlib  "../../../Accelerator_v3_0_S00_AXI.v"
+verilog xil_defaultlib  "../../../Accelerator_v3_0_M00_AXIS.v"
+verilog xil_defaultlib  "../../../Accelerator_v3_0.v"
+verilog xil_defaultlib  "../../../Accelerator_testbench_verilog.srcs/sim_1/new/Accelerator_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

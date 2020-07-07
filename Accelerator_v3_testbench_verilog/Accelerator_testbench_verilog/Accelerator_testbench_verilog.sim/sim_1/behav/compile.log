@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/rtl/table.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module table_lookup
+INFO: [VRFC 10-311] analyzing module S4
+INFO: [VRFC 10-311] analyzing module T
+INFO: [VRFC 10-311] analyzing module S
+INFO: [VRFC 10-311] analyzing module xS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/rtl/round.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_round
+INFO: [VRFC 10-311] analyzing module final_round
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/rtl/aes_256.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_256
+INFO: [VRFC 10-311] analyzing module expand_key_type_A_256
+INFO: [VRFC 10-311] analyzing module expand_key_type_B_256
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/rtl/aes_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aes_128
+INFO: [VRFC 10-311] analyzing module expand_key_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_block.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accelerator_block
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_v3_0_S00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accelerator_v3_0_S00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_v3_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accelerator_v3_0_S00_AXI
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_v3_0_M00_AXIS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accelerator_v3_0_M00_AXIS
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_v3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accelerator_v3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.srcs/sim_1/new/Accelerator_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Accelerator_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

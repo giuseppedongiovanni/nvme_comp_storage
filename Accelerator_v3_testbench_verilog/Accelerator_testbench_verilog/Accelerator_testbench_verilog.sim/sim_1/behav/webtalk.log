@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2015.4.2 (64-bit)
+# SW Build 1494164 on Fri Feb 26 04:18:54 MST 2016
+# IP Build 1491208 on Wed Feb 24 03:25:39 MST 2016
+# Start of session at: Thu May 14 11:39:40 2020
+# Process ID: 16711
+# Current directory: /home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.sim/sim_1/behav/xsim.dir/Accelerator_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.sim/sim_1/behav/webtalk.log
+# Journal file: /home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/giuseppezynq/Accelerator_v3_testbench_verilog/Accelerator_testbench_verilog/Accelerator_testbench_verilog.sim/sim_1/behav/xsim.dir/Accelerator_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Thu May 14 11:39:40 2020...
